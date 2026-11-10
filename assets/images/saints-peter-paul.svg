@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSaints" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D101C" />
+      <stop offset="50%" stop-color="#581628" />
+      <stop offset="100%" stop-color="#1E070D" />
+    </linearGradient>
+    <radialGradient id="haloGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF2A3" />
+      <stop offset="60%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#8C6B00" />
+    </radialGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#bgSaints)"/>
+
+  <!-- Arch Frame -->
+  <rect x="25" y="25" width="950" height="550" rx="20" fill="none" stroke="#D4AF37" stroke-width="3" stroke-dasharray="16,8"/>
+  <rect x="40" y="40" width="920" height="520" rx="14" fill="#2A0B14" stroke="#ECC94B" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Left Saint: Saint Peter (The Rock) -->
+  <g transform="translate(280, 240)">
+    <!-- Golden Halo -->
+    <circle cx="0" cy="-60" r="85" fill="none" stroke="url(#haloGold)" stroke-width="8" filter="url(#cardShadow)"/>
+    <circle cx="0" cy="-60" r="72" fill="#FAF6EE" opacity="0.15"/>
+    
+    <!-- Robe & Mantle -->
+    <path d="M -70,220 C -60,60 -50,-10 0,-10 C 50,-10 60,60 70,220 Z" fill="#80182A" stroke="#ECC94B" stroke-width="2"/>
+    <path d="M -40,30 L 40,220 L -60,220 Z" fill="#C59B27" opacity="0.85"/>
+    
+    <!-- Beard & Head Profile Silhouette -->
+    <circle cx="0" cy="-60" r="38" fill="#FCEFD2"/>
+    <!-- Grey curly hair & beard of St. Peter -->
+    <path d="M -30,-80 Q 0,-110 30,-80 Q 40,-50 35,-30 Q 0,0 -35,-30 Z" fill="#D3D5D7" opacity="0.9"/>
+    <circle cx="0" cy="-60" r="30" fill="#ECCBB0"/>
+
+    <!-- The Keys to the Kingdom held in right hand -->
+    <g transform="translate(45, 80) rotate(-25)">
+      <circle cx="0" cy="-25" r="14" fill="none" stroke="#ECC94B" stroke-width="4"/>
+      <line x1="0" y1="-11" x2="0" y2="45" stroke="#ECC94B" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 0,25 L 12,25 L 12,33 L 5,33 L 5,40 L 0,40 Z" fill="#ECC94B"/>
+    </g>
+
+    <!-- Scroll in left hand -->
+    <rect x="-60" y="80" width="18" height="55" rx="4" fill="#FFFDF8" stroke="#D4AF37" stroke-width="2"/>
+
+    <!-- Saint Title -->
+    <text x="0" y="270" font-family="'Cinzel', Georgia, serif" font-size="22" font-weight="700" fill="#FFF2A3" text-anchor="middle">
+      SANCTUS PETRUS
+    </text>
+    <text x="0" y="295" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#E2E8F0" text-anchor="middle">
+      The Rock • Keeper of the Keys
+    </text>
+  </g>
+
+  <!-- Center divider: Cross & Olive Branch -->
+  <g transform="translate(500, 260)">
+    <line x1="0" y1="-160" x2="0" y2="240" stroke="#D4AF37" stroke-width="2" stroke-dasharray="6,6"/>
+    <!-- Central Monogram -->
+    <circle cx="0" cy="40" r="36" fill="#6B1D2F" stroke="#ECC94B" stroke-width="3" filter="url(#cardShadow)"/>
+    <text x="0" y="47" font-family="'Cinzel', Georgia, serif" font-size="22" font-weight="700" fill="#FFF2A3" text-anchor="middle">
+      &amp;
+    </text>
+  </g>
+
+  <!-- Right Saint: Saint Paul (Apostle to the Gentiles) -->
+  <g transform="translate(720, 240)">
+    <!-- Golden Halo -->
+    <circle cx="0" cy="-60" r="85" fill="none" stroke="url(#haloGold)" stroke-width="8" filter="url(#cardShadow)"/>
+    <circle cx="0" cy="-60" r="72" fill="#FAF6EE" opacity="0.15"/>
+
+    <!-- Robe & Mantle -->
+    <path d="M -70,220 C -60,60 -50,-10 0,-10 C 50,-10 60,60 70,220 Z" fill="#243E36" stroke="#ECC94B" stroke-width="2"/>
+    <path d="M 40,30 L -40,220 L 60,220 Z" fill="#80182A" opacity="0.85"/>
+
+    <!-- Head & Dark Beard of St. Paul -->
+    <circle cx="0" cy="-60" r="38" fill="#FCEFD2"/>
+    <path d="M -28,-75 Q 0,-105 28,-75 Q 35,-40 30,-20 Q 0,10 -30,-20 Z" fill="#4A3B32" opacity="0.9"/>
+    <circle cx="0" cy="-60" r="30" fill="#ECCBB0"/>
+
+    <!-- The Sword of the Spirit (Word of God) -->
+    <g transform="translate(-45, 70) rotate(15)">
+      <line x1="0" y1="-45" x2="0" y2="75" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-16" y="25" width="32" height="6" rx="2" fill="#D4AF37"/>
+      <rect x="-3" y="31" width="6" height="20" fill="#718096"/>
+      <circle cx="0" cy="54" r="5" fill="#D4AF37"/>
+    </g>
+
+    <!-- Epistles / Sacred Book in hand -->
+    <rect x="25" y="65" width="35" height="50" rx="3" fill="#80182A" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="32" y1="75" x2="52" y2="75" stroke="#ECC94B" stroke-width="2"/>
+    <line x1="32" y1="85" x2="52" y2="85" stroke="#ECC94B" stroke-width="2"/>
+    <line x1="32" y1="95" x2="48" y2="95" stroke="#ECC94B" stroke-width="2"/>
+
+    <!-- Saint Title -->
+    <text x="0" y="270" font-family="'Cinzel', Georgia, serif" font-size="22" font-weight="700" fill="#FFF2A3" text-anchor="middle">
+      SANCTUS PAULUS
+    </text>
+    <text x="0" y="295" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#E2E8F0" text-anchor="middle">
+      Apostle to the Gentiles • Sword of Truth
+    </text>
+  </g>
+</svg>

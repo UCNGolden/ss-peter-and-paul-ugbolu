@@ -1,0 +1,98 @@
+[
+  {
+    "id": "gal-01",
+    "title": "Sanctuary and Altar of SS Peter and Paul",
+    "category": "sanctuary",
+    "image": "assets/images/gallery-sanctuary.svg",
+    "caption": "The main sanctuary, tabernacle, and marble altar decorated for Sunday High Mass.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-02",
+    "title": "Parish Church Exterior View",
+    "category": "sanctuary",
+    "image": "assets/images/gallery-exterior.svg",
+    "caption": "Architectural façade of SS Peter and Paul Catholic Church along Ugbolu Road.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-03",
+    "title": "Solemn Eucharistic Consecration",
+    "category": "liturgy",
+    "image": "assets/images/gallery-mass-elevation.svg",
+    "caption": "Elevation of the sacred host by the Parish Priest during the Liturgy of the Eucharist.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-04",
+    "title": "Christ the King Eucharistic Procession",
+    "category": "feasts",
+    "image": "assets/images/gallery-procession.svg",
+    "caption": "The parish faithful carrying the Blessed Sacrament in solemn monstrance procession through Ugbolu.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-05",
+    "title": "St. Cecilia Parish Choir Ministration",
+    "category": "choir",
+    "image": "assets/images/gallery-choir.svg",
+    "caption": "The choir leading four-part liturgical harmony and sacred hymns during Sunday worship.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-06",
+    "title": "Altar Servers Guild (St. Tarcisius)",
+    "category": "choir",
+    "image": "assets/images/gallery-servers.svg",
+    "caption": "Senior and junior altar servers in cassock and surplice after solemn investiture.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-07",
+    "title": "Parish Feast Day of Saints Peter and Paul",
+    "category": "feasts",
+    "image": "assets/images/gallery-feast-day.svg",
+    "caption": "Joyful parish patronal celebration honoring the Pillars of the Church, Sts Peter and Paul.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-08",
+    "title": "Catholic Women Organisation (CWO) Thanksgiving",
+    "category": "community",
+    "image": "assets/images/gallery-cwo.svg",
+    "caption": "Mothers and women of the parish during their annual August thanksgiving in traditional regalia.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-09",
+    "title": "Catholic Youth Organisation (CYON) Fellowship",
+    "category": "community",
+    "image": "assets/images/gallery-youth.svg",
+    "caption": "Parish youths participating in Bible study, drama presentation, and leadership workshop.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-10",
+    "title": "Chapel of Perpetual Eucharistic Adoration",
+    "category": "sanctuary",
+    "image": "assets/images/gallery-adoration.svg",
+    "caption": "Peaceful atmosphere for personal prayer, contemplation, and silent Eucharistic devotion.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-11",
+    "title": "Sacrament of Holy Baptism Celebration",
+    "category": "liturgy",
+    "image": "assets/images/gallery-baptism.svg",
+    "caption": "Anointing and pouring of water as infants are welcomed into the household of God.",
+    "date": "2026"
+  },
+  {
+    "id": "gal-12",
+    "title": "Parish Community Outreach & Charity Drive",
+    "category": "community",
+    "image": "assets/images/gallery-outreach.svg",
+    "caption": "Society of St. Vincent de Paul distributing welfare packages to elderly community members.",
+    "date": "2026"
+  }
+]

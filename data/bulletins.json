@@ -1,0 +1,481 @@
+[
+  {
+    "id": "bulletin-2026-11-15",
+    "issueNumber": "Vol. 14 / No. 46",
+    "date": "2026-11-15",
+    "displayDate": "Sunday, 15th November 2026",
+    "liturgicalSunday": "33rd Sunday in Ordinary Time (Year B)",
+    "liturgicalColor": "Green",
+    "liturgicalTheme": "Watch and Pray: Standing Firm with Faith in Times of Trial",
+    "isLatest": false,
+    "demoDisclaimer": "DEMONSTRATION CONTENT: This sample bulletin represents realistic parish publication data for SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku.",
+    "readings": {
+      "firstReading": {
+        "reference": "Daniel 12:1-3",
+        "title": "When that time comes, your own people will be spared."
+      },
+      "psalm": {
+        "reference": "Psalm 15(16):5, 8-11",
+        "response": "Preserve me, God, I take refuge in you."
+      },
+      "secondReading": {
+        "reference": "Hebrews 10:11-14, 18",
+        "title": "By virtue of one single offering, he has achieved the eternal perfection of all whom he is sanctifying."
+      },
+      "gospelAcclamation": {
+        "verse": "Stay awake and stand ready, because you do not know the hour when the Son of Man is coming. (cf. Mt 24:42, 44)"
+      },
+      "gospel": {
+        "reference": "Mark 13:24-32",
+        "title": "He will gather his chosen from the four winds."
+      }
+    },
+    "pastoralReflection": {
+      "title": "Vigilance and Hope in the Journey of Faith",
+      "author": "Rev. Fr. Emmanuel Okonkwo",
+      "role": "Parish Priest (Demo)",
+      "content": [
+        "Dear parishioners and beloved in Christ, as the liturgical year draws towards its solemn close, Holy Mother Church directs our contemplation toward the end of all things and the glorious return of our Lord Jesus Christ. The readings of this thirty-third Sunday invite us not to tremble in paralysing fear, but to live in holy vigilance, unshakable trust, and joyful hope.",
+        "In our daily lives here in Ugbolu, we face numerous trials—economic pressures, family concerns, and the challenges of living an authentic Christian life in a distracted world. Yet the Prophet Daniel reminds us that those who guide others toward righteousness will shine like the brightness of the heavens. Let us stand firm in charity, support one another, and remain steadfast in prayer.",
+        "May our patron saints, Peter the Rock and Paul the tireless Evangelizer, intercede for our parish families. Have a blessed and spiritually fruitful week!"
+      ]
+    },
+    "massSchedules": [
+      { "day": "Sunday", "time": "6:30 AM", "type": "Dawn Mass (English & Local Hymns)" },
+      { "day": "Sunday", "time": "8:30 AM", "type": "Parish High Mass (Choir Ministration)" },
+      { "day": "Sunday", "time": "10:30 AM", "type": "Youth & Children Mass" },
+      { "day": "Monday - Friday", "time": "6:00 AM", "type": "Daily Morning Mass" },
+      { "day": "Wednesday & Friday", "time": "6:00 PM", "type": "Evening Mass & Holy Hour / Benediction" },
+      { "day": "Saturday", "time": "6:30 AM", "type": "Our Lady's Mass & Marian Devotion" }
+    ],
+    "massIntentions": [
+      {
+        "mass": "Sunday 6:30 AM",
+        "intentions": [
+          "Thanksgiving for safe childbirth offered by Mr. & Mrs. Chukwudi Okafor and family.",
+          "For the peaceful repose of the soul of Pa Anthony Okolie (Departed).",
+          "God's protection and breakthrough in examinations for parish candidates."
+        ]
+      },
+      {
+        "mass": "Sunday 8:30 AM (Parish High Mass)",
+        "intentions": [
+          "Missa Pro Populo (For all parishioners of SS Peter and Paul, Ugbolu).",
+          "Wedding Anniversary thanksgiving offered by Sir & Lady Patrick Elumelu.",
+          "Speedy recovery and Divine healing for all sick and housebound parishioners."
+        ]
+      },
+      {
+        "mass": "Sunday 10:30 AM",
+        "intentions": [
+          "Special thanksgiving and birthday blessings for Miss Chiamaka Nwanze.",
+          "For moral guidance, gainful employment, and fruitfulness among CYON youths.",
+          "Repose of souls in Purgatory, especially forgotten souls."
+        ]
+      },
+      {
+        "mass": "Weekday Highlights",
+        "intentions": [
+          "Tuesday 6:00 AM: Successful farming harvest and business enterprise for Ugbolu community.",
+          "Thursday 6:00 PM: In honour of the Most Blessed Sacrament for families in distress.",
+          "Saturday 6:30 AM: In honour of the Immaculate Heart of Mary for world peace and Christian unity."
+        ]
+      }
+    ],
+    "announcements": [
+      {
+        "title": "Banns of Marriage (First Calling)",
+        "body": "Brother Emeka Gabriel Osakwe of Umuaji Quarters, Ugbolu, and Sister Blessing Nneka Umeh of St. Michael's Parish, Asaba. If anyone knows of any canonical impediment why they should not be joined in Holy Matrimony, let them report to the Parish Priest immediately."
+      },
+      {
+        "title": "Upcoming Solemnity of Christ the King",
+        "body": "Next Sunday, 22nd November, is the Solemnity of Christ the King. There will be only two Masses (6:30 AM & 8:30 AM combined). The grand Eucharistic Procession through Ugbolu township will commence promptly at 2:00 PM from the church premises. All parish societies must turn out in their full uniforms."
+      },
+      {
+        "title": "Catholic Men Organisation (CMO) Monthly Meeting",
+        "body": "The statutory general meeting of the Catholic Men Organisation (Ugbolu Parish Branch) holds this Sunday immediately after the 8:30 AM Mass at the Father's Hall. Punctuality is essential."
+      },
+      {
+        "title": "Infant Baptism Preparatory Class",
+        "body": "Instruction class for parents and godparents preparing infants for Holy Baptism will take place this Saturday, 21st November, by 9:00 AM at the Parish Catechetical Centre."
+      }
+    ],
+    "sacramentalNotices": [
+      "Sacrament of Reconciliation (Confession): Saturdays from 5:00 PM to 6:00 PM, and upon request before weekday Masses.",
+      "Adult Catechism (RCIA): Every Sunday at 4:00 PM in the Parish Hall.",
+      "Marriage Counselling Classes: First and third Saturdays of each month at 10:00 AM in the Parish Office."
+    ],
+    "societyUpdates": [
+      {
+        "society": "Catholic Women Organisation (CWO)",
+        "message": "Executive committee meeting takes place this Thursday at 5:00 PM to finalize the End-of-Year Thanksgiving and Welfare Outreach to widows in Ugbolu."
+      },
+      {
+        "society": "Catholic Youth Organisation of Nigeria (CYON)",
+        "message": "Youth Bible study and sports fellowship will hold this Saturday at 4:00 PM. All youths are encouraged to participate actively."
+      },
+      {
+        "society": "St. Cecilia Choir Ministry",
+        "message": "Choir rehearsals for the Christ the King Solemnity hold on Tuesday and Thursday evenings from 6:30 PM to 8:30 PM. New voices are warmly welcomed."
+      }
+    ],
+    "reminders": [
+      "Please observe reverent silence upon entering the sanctuary of the church.",
+      "Switch off all mobile phones or keep them on silent mode during Holy Mass.",
+      "Modest and decent liturgical attire is strictly required for all worship services."
+    ]
+  },
+  {
+    "id": "bulletin-2026-11-22",
+    "issueNumber": "Vol. 14 / No. 47",
+    "date": "2026-11-22",
+    "displayDate": "Sunday, 22nd November 2026",
+    "liturgicalSunday": "Solemnity of Our Lord Jesus Christ, King of the Universe (Christ the King - Year B)",
+    "liturgicalColor": "White / Gold",
+    "liturgicalTheme": "Christ, Sovereign King of All Creation and Prince of Peace",
+    "isLatest": false,
+    "demoDisclaimer": "DEMONSTRATION CONTENT: This sample bulletin represents realistic parish publication data for SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku.",
+    "readings": {
+      "firstReading": {
+        "reference": "Daniel 7:13-14",
+        "title": "His sovereignty is an eternal sovereignty which shall never pass away."
+      },
+      "psalm": {
+        "reference": "Psalm 92(93):1-2, 5",
+        "response": "The Lord is king, with majesty enrobed."
+      },
+      "secondReading": {
+        "reference": "Revelation 1:5-8",
+        "title": "Ruler of the kings of the earth, he made us a line of kings and priests to God his Father."
+      },
+      "gospelAcclamation": {
+        "verse": "Blessings on him who comes in the name of the Lord! Blessings on the coming kingdom of our father David! (Mark 11:9-10)"
+      },
+      "gospel": {
+        "reference": "John 18:33b-37",
+        "title": "Yes, I am a king: I came into the world for this: to bear witness to the truth."
+      }
+    },
+    "pastoralReflection": {
+      "title": "Enthroning Christ in Our Hearts, Homes, and Society",
+      "author": "Rev. Fr. Emmanuel Okonkwo",
+      "role": "Parish Priest (Demo)",
+      "content": [
+        "Today Holy Mother Church triumphantly celebrates the Solemnity of Our Lord Jesus Christ, King of the Universe, crowning our liturgical year with supreme majesty. When Pilate asked Jesus, 'Are you the King of the Jews?', Jesus answered with divine clarity: 'My kingdom is not of this world.'",
+        "Christ reigns not with military might or political coercion, but through sacrificial love, self-giving service, and the truth of the Gospel. For us here in SS Peter and Paul Parish, Ugbolu, proclaiming Christ as King means allowing His virtues to govern our homes, our business transactions, our friendships, and our civic responsibilities.",
+        "As we carry the Blessed Sacrament through our streets this afternoon, let our procession be an act of genuine consecration. Let us make Ugbolu a haven of peace, reconciliation, and Christian brotherhood. Long live Christ our King!"
+      ]
+    },
+    "massSchedules": [
+      { "day": "Sunday (Today)", "time": "6:30 AM", "type": "Dawn Mass" },
+      { "day": "Sunday (Today)", "time": "8:30 AM", "type": "Solemn High Mass of Christ the King" },
+      { "day": "Sunday Afternoon", "time": "2:00 PM", "type": "Parish Eucharistic Procession through Ugbolu" },
+      { "day": "Monday - Friday", "time": "6:00 AM", "type": "Daily Morning Mass" },
+      { "day": "Wednesday & Friday", "time": "6:00 PM", "type": "Evening Mass & Novena" },
+      { "day": "Saturday", "time": "6:30 AM", "type": "Our Lady's Mass" }
+    ],
+    "massIntentions": [
+      {
+        "mass": "Sunday 6:30 AM",
+        "intentions": [
+          "Thanksgiving to Christ the King for protection throughout the farming season, by the Catholic Men Organisation (CMO).",
+          "Repose of the soul of Mama Theresa Nwanwene.",
+          "Safe delivery and blessings for expectant mothers in Ugbolu parish."
+        ]
+      },
+      {
+        "mass": "Sunday 8:30 AM (Solemn High Mass)",
+        "intentions": [
+          "Missa Pro Populo: Consecration of all families of SS Peter and Paul, Ugbolu to the Sacred Heart of Jesus.",
+          "Diocesan thanksgiving for our Chief Shepherd, Most Rev. Dr. Michael Odogwu Elue, and all priests of Issele-Uku Diocese.",
+          "Special thanksgiving and divine favor for the Catholic Women Organisation (CWO)."
+        ]
+      },
+      {
+        "mass": "Sunday Afternoon Procession",
+        "intentions": [
+          "Peace, security, unity, and development for Ugbolu town, Delta State, and Nigeria.",
+          "Spiritual renewal of all youth and children in our parish community."
+        ]
+      }
+    ],
+    "announcements": [
+      {
+        "title": "Eucharistic Procession Route & Order",
+        "body": "The route for today's Eucharistic Procession: Church Compound -> Ugbolu Main Road -> Market Square -> Palace Junction -> Illah Road Link -> Return to Church for Benediction. All societies should assemble behind their banners by 1:30 PM."
+      },
+      {
+        "title": "Advent Season Commences Next Sunday",
+        "body": "Next Sunday begins the liturgical Year C and the Holy Season of Advent. The Parish Advent Novena will commence on Monday, 30th November, at 6:00 PM each evening."
+      },
+      {
+        "title": "Banns of Marriage (Second Calling)",
+        "body": "Brother Emeka Gabriel Osakwe of Umuaji Quarters, Ugbolu, and Sister Blessing Nneka Umeh of St. Michael's Parish, Asaba. Canonical objections should be communicated to the parish office."
+      },
+      {
+        "title": "End-of-Year Parish Welfare Drive",
+        "body": "Society of St. Vincent de Paul is collecting food items, tubers of yam, rice, and clothing for indigent families for the forthcoming Christmas season. Donations can be dropped at the parish office."
+      }
+    ],
+    "sacramentalNotices": [
+      "Sacrament of Confession: Special Advent Penitential Service will be announced next Sunday.",
+      "Infant Baptism: Next batch of infant baptisms will take place on Saturday, 28th November at 10:00 AM.",
+      "First Holy Communion: 45 catechism children will receive their First Holy Communion on Christmas morning."
+    ],
+    "societyUpdates": [
+      {
+        "society": "Altar Servers Association",
+        "message": "Hearty congratulations to the 12 new altar servers invested today during the High Mass. May St. Tarcisius inspire your ministry."
+      },
+      {
+        "society": "Legion of Mary",
+        "message": "Weekly praesidium meetings hold every Wednesday immediately after the evening Mass at the Grotto of Our Lady."
+      }
+    ],
+    "reminders": [
+      "Return all hymn books and liturgical guides to the ushers after Mass.",
+      "Support the parish development levy for the ongoing parish hall roofing project."
+    ]
+  },
+  {
+    "id": "bulletin-2026-11-29",
+    "issueNumber": "Vol. 15 / No. 01",
+    "date": "2026-11-29",
+    "displayDate": "Sunday, 29th November 2026",
+    "liturgicalSunday": "First Sunday of Advent (Year C)",
+    "liturgicalColor": "Violet / Purple",
+    "liturgicalTheme": "A Season of Hope: Lift Up Your Heads, Your Redemption Draws Near",
+    "isLatest": false,
+    "demoDisclaimer": "DEMONSTRATION CONTENT: This sample bulletin represents realistic parish publication data for SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku.",
+    "readings": {
+      "firstReading": {
+        "reference": "Jeremiah 33:14-16",
+        "title": "I will make a virtuous Branch grow for David."
+      },
+      "psalm": {
+        "reference": "Psalm 24(25):4-5, 8-9, 10, 14",
+        "response": "To you, O Lord, I lift up my soul."
+      },
+      "secondReading": {
+        "reference": "1 Thessalonians 3:12—4:2",
+        "title": "May the Lord confirm your hearts in holiness when Christ comes."
+      },
+      "gospelAcclamation": {
+        "verse": "Show us your mercy, O Lord, and grant us your salvation. (Psalm 84:8)"
+      },
+      "gospel": {
+        "reference": "Luke 21:25-28, 34-36",
+        "title": "Your redemption is standing at your door."
+      }
+    },
+    "pastoralReflection": {
+      "title": "The Dawn of the Holy Season of Advent",
+      "author": "Rev. Fr. Emmanuel Okonkwo",
+      "role": "Parish Priest (Demo)",
+      "content": [
+        "Today, the Church opens the threshold of a new Liturgical Year (Year C) with the sacred season of Advent. The violet vestments, the lighting of the first candle of the Advent Wreath (the Candle of Hope), and the somber suppression of the Gloria during Mass all remind us that this is a time of quiet reflection, watchful expectancy, and profound spiritual preparation.",
+        "Advent has a dual character: it prepares our souls to commemorate the First Coming of Christ in the poverty of Bethlehem, and it directs our hearts to await His Second Coming in majestic power. The Gospel warns us against becoming weighed down by dissipation, worldly anxiety, and spiritual lukewarmness.",
+        "I invite every parish family in Ugbolu to erect an Advent wreath or Nativity crèche in your living rooms. Let family prayers be intensified this season, and let us seek reconciliation through the Sacrament of Penance."
+      ]
+    },
+    "massSchedules": [
+      { "day": "Sunday", "time": "6:30 AM", "type": "Dawn Mass (Advent Liturgy)" },
+      { "day": "Sunday", "time": "8:30 AM", "type": "Parish High Mass" },
+      { "day": "Sunday", "time": "10:30 AM", "type": "Youth & Children Mass" },
+      { "day": "Monday - Friday", "time": "6:00 AM", "type": "Daily Morning Mass" },
+      { "day": "Monday - Friday", "time": "6:00 PM", "type": "Advent Novena & Evening Mass" },
+      { "day": "Saturday", "time": "6:30 AM", "type": "Our Lady's Mass & Marian Rosary" }
+    ],
+    "massIntentions": [
+      {
+        "mass": "Sunday 6:30 AM",
+        "intentions": [
+          "Special intentions for the spiritual renewal of the parish pastoral council.",
+          "Repose of the souls of deceased members of the Catholic Women Organisation (CWO).",
+          "Thanksgiving for travelling mercies offered by the Nduka family."
+        ]
+      },
+      {
+        "mass": "Sunday 8:30 AM (Parish High Mass)",
+        "intentions": [
+          "Missa Pro Populo: God's peace, protection, and provision for all Ugbolu parishioners.",
+          "Thanksgiving on retirement from civil service by Engr. Kenneth Anazia and family.",
+          "Prayers for children awaiting university admission and employment."
+        ]
+      },
+      {
+        "mass": "Sunday 10:30 AM",
+        "intentions": [
+          "Blessings and guidance for CYON youth executive members as they begin their term.",
+          "Thanksgiving for restoration of health for Bro. Jude Mordi.",
+          "Souls of departed priests and religious who served in Issele-Uku Diocese."
+        ]
+      }
+    ],
+    "announcements": [
+      {
+        "title": "Parish Advent Novena Begins Monday",
+        "body": "The 9-day parish Advent spiritual revival will hold from Monday 30th November to Wednesday 9th December, every evening from 5:30 PM to 7:00 PM. Guest preacher: Rev. Fr. Jude Onyeoguzoro. Come with your rosaries and Bibles."
+      },
+      {
+        "title": "Banns of Marriage (Third & Final Calling)",
+        "body": "Brother Emeka Gabriel Osakwe of Umuaji Quarters, Ugbolu, and Sister Blessing Nneka Umeh of St. Michael's Parish, Asaba. Their wedding is scheduled for Saturday, 12th December 2026, at 10:00 AM in this church."
+      },
+      {
+        "title": "Solemnity of the Immaculate Conception (Holy Day of Obligation)",
+        "body": "Tuesday, 8th December is the Solemnity of the Immaculate Conception of the Blessed Virgin Mary, Patroness of the Catholic Church. Masses will be celebrated at 6:00 AM and 6:00 PM."
+      },
+      {
+        "title": "Parish Carol of Nine Lessons Rehearsals",
+        "body": "The annual Christmas Festival of Nine Lessons and Carols is slated for Sunday, 20th December at 5:00 PM. All parish choral groups and society representatives should contact the Director of Music."
+      }
+    ],
+    "sacramentalNotices": [
+      "Parish Advent Penitential Service (General Confessions with visiting priests): Thursday, 17th December from 4:00 PM.",
+      "Catechism classes for Confirmation and First Holy Communion continue every Saturday at 8:30 AM."
+    ],
+    "societyUpdates": [
+      {
+        "society": "Catholic Biblical Apostolate",
+        "message": "Bible study on the Advent Gospel of St. Luke takes place every Tuesday after 6:00 AM Mass."
+      },
+      {
+        "society": "Society of St. Vincent de Paul",
+        "message": "Parishioners are requested to drop food donations into the charity box at the back of the church."
+      }
+    ],
+    "reminders": [
+      "The liturgical season of Advent calls for voluntary penance, fasting, and almsgiving.",
+      "Kindly ensure that all church facilities are treated with reverence and cleanliness."
+    ]
+  },
+  {
+    "id": "bulletin-2026-12-06",
+    "issueNumber": "Vol. 15 / No. 02",
+    "date": "2026-12-06",
+    "displayDate": "Sunday, 6th December 2026",
+    "liturgicalSunday": "Second Sunday of Advent (Year C)",
+    "liturgicalColor": "Violet / Purple",
+    "liturgicalTheme": "Prepare the Way of the Lord: Repentance, Reconciliation and Joyful Hope",
+    "isLatest": true,
+    "demoDisclaimer": "DEMONSTRATION CONTENT: This sample bulletin represents realistic parish publication data for SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku.",
+    "readings": {
+      "firstReading": {
+        "reference": "Baruch 5:1-9",
+        "title": "God will show your splendour to every nation under heaven."
+      },
+      "psalm": {
+        "reference": "Psalm 125(126):1-6",
+        "response": "What great deeds the Lord has worked for us; what fullness of joy."
+      },
+      "secondReading": {
+        "reference": "Philippians 1:4-6, 8-11",
+        "title": "May you be found pure and blameless for the day of Christ."
+      },
+      "gospelAcclamation": {
+        "verse": "Prepare a way for the Lord, make his paths straight, and all mankind shall see the salvation of God. (Luke 3:4, 6)"
+      },
+      "gospel": {
+        "reference": "Luke 3:1-6",
+        "title": "The voice of one crying in the wilderness: Prepare the way of the Lord!"
+      }
+    },
+    "pastoralReflection": {
+      "title": "Leveling the Mountains of Pride and Filling the Valleys of Despair",
+      "author": "Rev. Fr. Emmanuel Okonkwo",
+      "role": "Parish Priest (Demo)",
+      "content": [
+        "On this Second Sunday of Advent, the dramatic voice of St. John the Baptist echoes from the Judean wilderness: 'Prepare the way of the Lord, make straight his paths!' The Prophet Baruch in our first reading also promises that God has commanded every high mountain to be made low and the valleys filled to make level ground, so that God's people may walk safely in His glory.",
+        "What are the spiritual mountains and valleys in our lives today? The mountains are our pride, our grudges, our unwillingness to forgive family members and neighbours, and our self-righteousness. The valleys are our spiritual apathy, lack of prayer, moral discouragement, and neglect of the sacraments. Advent demands sincere spiritual bulldozing so that the King of Glory may find a smooth highway into our hearts.",
+        "As we prepare for the Solemnity of the Immaculate Conception this Tuesday, let us ask Our Lady to foster purity of heart within us. Let us also prepare generously for our parish Advent Penitential Service. A holy and blessed Advent week to you all!"
+      ]
+    },
+    "massSchedules": [
+      { "day": "Sunday (Today)", "time": "6:30 AM", "type": "Dawn Mass" },
+      { "day": "Sunday (Today)", "time": "8:30 AM", "type": "Parish High Mass" },
+      { "day": "Sunday (Today)", "time": "10:30 AM", "type": "Youth & Children Mass" },
+      { "day": "Tuesday (8th Dec)", "time": "6:00 AM & 6:00 PM", "type": "Solemnity of Immaculate Conception (Holy Day of Obligation)" },
+      { "day": "Monday - Friday", "time": "6:00 AM", "type": "Daily Morning Mass" },
+      { "day": "Wednesday & Friday", "time": "6:00 PM", "type": "Advent Novena & Evening Mass" },
+      { "day": "Saturday", "time": "6:30 AM", "type": "Our Lady's Mass & Confessions" }
+    ],
+    "massIntentions": [
+      {
+        "mass": "Sunday 6:30 AM",
+        "intentions": [
+          "Birthday thanksgiving and God's abundant graces for Dr. Francis Chukwuka.",
+          "Repose of the soul of Chief Sylvester Nwajei (Odogwu of Ugbolu).",
+          "Special intentions for the security and peace of the Catholic Diocese of Issele-Uku."
+        ]
+      },
+      {
+        "mass": "Sunday 8:30 AM (Parish High Mass)",
+        "intentions": [
+          "Missa Pro Populo: For the spiritual flourishing, health, and prosperity of all Ugbolu parishioners.",
+          "Thanksgiving for 25th Silver Wedding Jubilee of Mr. & Mrs. Boniface Osadebe.",
+          "Prayers for all widows, orphans, and less privileged persons in our community."
+        ]
+      },
+      {
+        "mass": "Sunday 10:30 AM",
+        "intentions": [
+          "Thanksgiving for successful graduation from university by Miss Chidinma Okonkwo.",
+          "For peace and reconciliation among conflicting families in our parish.",
+          "Repose of all souls in Purgatory."
+        ]
+      },
+      {
+        "mass": "Tuesday 6:00 PM (Immaculate Conception)",
+        "intentions": [
+          "In thanksgiving to Our Lady, Patroness of Nigeria, for national peace and unity.",
+          "For all members of the Legion of Mary and Rosary Confraternity."
+        ]
+      }
+    ],
+    "announcements": [
+      {
+        "title": "Solemnity of the Immaculate Conception (Holy Day of Obligation)",
+        "body": "Tuesday, 8th December is the Solemnity of the Immaculate Conception of the Blessed Virgin Mary. All Catholic faithful are obligated to participate in Holy Mass. Masses at SS Peter and Paul, Ugbolu will be celebrated at 6:00 AM and 6:00 PM."
+      },
+      {
+        "title": "Wedding Solemnization Notice",
+        "body": "The Holy Matrimony between Brother Emeka Gabriel Osakwe and Sister Blessing Nneka Umeh will be solemnized this Saturday, 12th December 2026, at 10:00 AM. Parishioners are cordially invited to witness and celebrate with the couple."
+      },
+      {
+        "title": "Parish Advent Penitential Service",
+        "body": "General Advent confession for Christmas preparation will hold on Thursday, 17th December 2026, from 4:00 PM. Seven visiting priests from the Asaba Deanery will be available to administer the Sacrament of Reconciliation."
+      },
+      {
+        "title": "St. Vincent de Paul 'Adopt-A-Family' Christmas Hamper",
+        "body": "Parishioners wishing to sponsor a food hamper for needy households in Ugbolu are invited to register at the charity desk. Each standard hamper contains rice, oil, tomatoes, and seasoning."
+      },
+      {
+        "title": "Christmas and New Year Mass Schedule Preview",
+        "body": "Christmas Eve Vigil Mass: 9:00 PM (starts with Christmas Carol at 8:00 PM). Christmas Day Masses: 6:30 AM and 8:30 AM. Feast of Holy Family (Sunday 27th Dec): Regular Sunday schedule. New Year's Eve Crossover Vigil: 10:00 PM."
+      }
+    ],
+    "sacramentalNotices": [
+      "Pre-Baptismal classes for infants hold on Saturday 19th December at 9:00 AM.",
+      "First Holy Communion candidates' retreat will hold on Saturday 19th December at 10:30 AM.",
+      "Sick calls and homebound communion: Please notify the parish office by Tuesday morning."
+    ],
+    "societyUpdates": [
+      {
+        "society": "Catholic Youth Organisation (CYON)",
+        "message": "CYON End-of-Year Thanksgiving and Carol Night will take place on Sunday 20th December. Youth members should register with the social committee."
+      },
+      {
+        "society": "Catholic Women Organisation (CWO)",
+        "message": "Final general meeting for 2026 takes place on Sunday 13th December immediately after the 8:30 AM Mass. All women should attend in official uniform."
+      },
+      {
+        "society": "Catholic Men Organisation (CMO)",
+        "message": "Year-end harvest reconciliation meeting holds this Wednesday at 5:30 PM."
+      }
+    ],
+    "reminders": [
+      "Maintain sacred silence within the church nave and sanctuary.",
+      "Support our ongoing parish administrative complex project with your pledges and donations."
+    ]
+  }
+]

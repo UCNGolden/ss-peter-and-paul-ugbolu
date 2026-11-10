@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF2A3" />
+      <stop offset="60%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#997300" />
+    </radialGradient>
+    <linearGradient id="burgundyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B1E3F" />
+      <stop offset="50%" stop-color="#6B1D2F" />
+      <stop offset="100%" stop-color="#4A0E1B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Ring with Catholic Gold Border -->
+  <circle cx="250" cy="250" r="236" fill="url(#burgundyGrad)" stroke="url(#goldGlow)" stroke-width="9" filter="url(#shadow)" />
+  <circle cx="250" cy="250" r="222" fill="none" stroke="#D4AF37" stroke-width="2" stroke-dasharray="4,4" />
+  <circle cx="250" cy="250" r="215" fill="#581423" stroke="#ECC94B" stroke-width="2" />
+
+  <!-- Circular Text Path -->
+  <path id="textCircleTop" d="M 50,250 A 200,200 0 0,1 450,250" fill="none" />
+  <path id="textCircleBottom" d="M 450,250 A 200,200 0 0,1 50,250" fill="none" />
+
+  <text fill="#FFF4D0" font-family="'Cinzel', Georgia, serif" font-size="21" font-weight="700" letter-spacing="3.5">
+    <textPath href="#textCircleTop" startOffset="50%" text-anchor="middle">
+      SS PETER &amp; PAUL CATHOLIC CHURCH
+    </textPath>
+  </text>
+  <text fill="#ECC94B" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="600" letter-spacing="3">
+    <textPath href="#textCircleBottom" startOffset="50%" text-anchor="middle">
+      UGBOLU • DIOCESE OF ISSELE-UKU
+    </textPath>
+  </text>
+
+  <!-- Central Medallion -->
+  <circle cx="250" cy="250" r="148" fill="#FDFBF7" stroke="url(#goldGlow)" stroke-width="6" filter="url(#shadow)" />
+  <circle cx="250" cy="250" r="141" fill="#FAF6EE" stroke="#C59B27" stroke-width="1.5" />
+
+  <!-- Rays of Holy Spirit -->
+  <g stroke="#F3E5AB" stroke-width="1.5" opacity="0.8">
+    <line x1="250" y1="120" x2="250" y2="380" />
+    <line x1="120" y1="250" x2="380" y2="250" />
+    <line x1="158" y1="158" x2="342" y2="342" />
+    <line x1="158" y1="342" x2="342" y2="158" />
+  </g>
+
+  <!-- The Papal Keys of Saint Peter (Gold & Silver crossed) -->
+  <!-- Gold Key (Heavenly authority) -->
+  <g transform="rotate(45 250 245)">
+    <!-- Key Head -->
+    <circle cx="250" cy="165" r="22" fill="none" stroke="#D4AF37" stroke-width="6"/>
+    <circle cx="250" cy="165" r="10" fill="none" stroke="#D4AF37" stroke-width="3"/>
+    <path d="M 247,150 L 253,150 L 253,180 L 247,180 Z" fill="#D4AF37"/>
+    <!-- Key Shaft -->
+    <rect x="247" y="185" width="6" height="110" fill="#D4AF37" rx="2"/>
+    <!-- Key Bit (Cross-shaped) -->
+    <path d="M 253,275 L 273,275 L 273,285 L 263,285 L 263,293 L 253,293 Z" fill="#D4AF37"/>
+    <circle cx="250" cy="245" r="4" fill="#997300"/>
+  </g>
+
+  <!-- Silver Key / Sword of St. Paul -->
+  <g transform="rotate(-45 250 245)">
+    <!-- Sword Blade for St. Paul -->
+    <path d="M 250,140 L 254,150 L 254,280 L 250,295 L 246,280 L 246,150 Z" fill="#C0C0C0" stroke="#718096" stroke-width="1"/>
+    <line x1="250" y1="145" x2="250" y2="280" stroke="#E2E8F0" stroke-width="1.5"/>
+    <!-- Crossguard -->
+    <rect x="230" y="278" width="40" height="7" rx="3" fill="#D4AF37" stroke="#997300" stroke-width="1"/>
+    <!-- Grip & Pommel -->
+    <rect x="247" y="285" width="6" height="24" fill="#6B1D2F" rx="1"/>
+    <circle cx="250" cy="314" r="8" fill="#D4AF37" stroke="#997300" stroke-width="1.5"/>
+  </g>
+
+  <!-- Central Latin Cross of Christ with Radiant Gold -->
+  <g filter="url(#shadow)">
+    <!-- Vertical beam -->
+    <rect x="244" y="145" width="12" height="180" rx="3" fill="url(#goldGlow)" stroke="#7A5A00" stroke-width="1.5"/>
+    <!-- Horizontal beam -->
+    <rect x="210" y="190" width="80" height="12" rx="3" fill="url(#goldGlow)" stroke="#7A5A00" stroke-width="1.5"/>
+    <!-- Center Jewel -->
+    <circle cx="250" cy="196" r="6" fill="#8B1E3F" stroke="#D4AF37" stroke-width="1.5"/>
+  </g>
+
+  <!-- Open Gospel Book at Base -->
+  <g transform="translate(0, 45)">
+    <path d="M 205,270 Q 250,260 250,270 Q 250,260 295,270 L 295,305 Q 250,295 250,305 Q 250,295 205,305 Z" fill="#FFFDF8" stroke="#D4AF37" stroke-width="3" filter="url(#shadow)"/>
+    <line x1="250" y1="268" x2="250" y2="305" stroke="#997300" stroke-width="2"/>
+    <!-- Alpha and Omega -->
+    <text x="227" y="292" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#6B1D2F">Α</text>
+    <text x="268" y="292" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="700" fill="#6B1D2F">Ω</text>
+  </g>
+
+  <!-- Latin Parish Motto Ribbon -->
+  <g transform="translate(0, 410)">
+    <path d="M 130,10 Q 250,-10 370,10 L 355,36 Q 250,18 145,36 Z" fill="#D4AF37" stroke="#997300" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="250" y="27" font-family="'Cinzel', Georgia, serif" font-size="12" font-weight="700" fill="#4A0E1B" text-anchor="middle" letter-spacing="1.5">
+      TU ES PETRUS • GRATIA ET VERITAS
+    </text>
+  </g>
+</svg>

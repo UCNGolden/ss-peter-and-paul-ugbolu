@@ -1,0 +1,107 @@
+[
+  {
+    "id": "baptism",
+    "name": "Sacrament of Baptism",
+    "classification": "Sacraments of Christian Initiation",
+    "scripture": "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit. (Matthew 28:19)",
+    "description": "Holy Baptism is the basis of the whole Christian life, the gateway to life in the Spirit, and the door which gives access to the other sacraments. Through Baptism we are freed from sin and reborn as sons and daughters of God; we become members of Christ, are incorporated into the Church and made sharers in her mission.",
+    "schedule": "Infant Baptism is celebrated on the last Saturday of every month at 10:00 AM. Adult Baptisms are celebrated at the Easter Vigil.",
+    "requirements": [
+      "Copy of child's birth certificate or hospital registration.",
+      "Parents must be registered parishioners or possess a letter of introduction from their home parish priest.",
+      "At least one practicing, confirmed Catholic godparent (sponsor) who has received Holy Communion.",
+      "Attendance at the mandatory Pre-Baptismal catechetical class on the Saturday prior to baptism."
+    ],
+    "inquiryInstructions": "To register your child for Holy Baptism, visit the Parish Office during weekday working hours (Tuesday - Friday, 9:00 AM - 1:00 PM) to obtain the registration form, or submit an enquiry via our website."
+  },
+  {
+    "id": "eucharist",
+    "name": "The Holy Eucharist (Holy Communion)",
+    "classification": "Sacraments of Christian Initiation",
+    "scripture": "I am the living bread that came down from heaven. If anyone eats of this bread, he will live forever. (John 6:51)",
+    "description": "The Holy Eucharist is the 'source and summit of the Christian life.' In the Eucharist, through the priest's invocation of the Holy Spirit and the words of consecration, the bread and wine become the Real, Substantial Presence of Jesus Christ — His Body, Blood, Soul, and Divinity. By receiving Holy Communion, the faithful are united intimately with Christ and with one another.",
+    "schedule": "Celebrated at every Holy Mass. Daily morning Masses (6:00 AM), Wednesday & Friday evening Masses (6:00 PM), Sunday Masses (6:30 AM, 8:30 AM, 10:30 AM).",
+    "requirements": [
+      "Must be a baptized Catholic in full communion with the Church.",
+      "Must be in the state of grace (free from mortal sin; having made a sacramental confession if conscious of grave sin).",
+      "Observe the Eucharistic fast (abstain from all food and drink except water and medicine for at least one hour before Communion).",
+      "For First Holy Communion: Children aged 8 and above must complete the two-year preparatory catechism curriculum."
+    ],
+    "inquiryInstructions": "For First Holy Communion registration for children or adults under RCIA, contact the Catechetical Office after any Sunday morning Mass."
+  },
+  {
+    "id": "confirmation",
+    "name": "Sacrament of Confirmation",
+    "classification": "Sacraments of Christian Initiation",
+    "scripture": "Now when the apostles at Jerusalem heard that Samaria had received the word of God, they sent to them Peter and John, who came down and prayed for them that they might receive the Holy Spirit. (Acts 8:14-15)",
+    "description": "Confirmation completes baptismal grace. It imparts the special outpouring of the Holy Spirit, binding the baptized person more intimately to the Church and enriching them with the Seven Gifts of the Holy Spirit (Wisdom, Understanding, Counsel, Fortitude, Knowledge, Piety, and Fear of the Lord) to spread and defend the Catholic faith as true witnesses of Christ.",
+    "schedule": "Conferred annually during the pastoral visit of the Bishop of the Catholic Diocese of Issele-Uku (usually around the Parish Feast Day in June).",
+    "requirements": [
+      "Candidate must be a baptized Catholic who has received First Holy Communion.",
+      "Completion of the formal Confirmation catechetical course (1 academic year).",
+      "Regular attendance at Holy Mass, liturgical formation, and a pre-confirmation spiritual retreat.",
+      "A practicing confirmed Catholic sponsor/godparent."
+    ],
+    "inquiryInstructions": "Confirmation candidates are registered through the Parish Catechetical Centre at the beginning of each academic session in September."
+  },
+  {
+    "id": "reconciliation",
+    "name": "Sacrament of Reconciliation (Penance / Confession)",
+    "classification": "Sacraments of Healing",
+    "scripture": "If you forgive the sins of any, they are forgiven them; if you withhold forgiveness from any, it is withheld. (John 20:23)",
+    "description": "Those who approach the Sacrament of Penance obtain pardon from God's mercy for the offense committed against Him, and are at the same time reconciled with the Church which they have wounded by their sins. Confession brings healing, peace of conscience, spiritual resurrection, and the grace to overcome temptation.",
+    "schedule": "Every Saturday from 5:00 PM to 6:00 PM in the church confessional. Also available on request before or after weekday morning Masses, and during seasonal Deanery Penitential Services in Advent and Lent.",
+    "requirements": [
+      "Sincere Examination of Conscience.",
+      "Contrition (heartfelt sorrow for sins committed).",
+      "Firm purpose of amendment (determination not to sin again).",
+      "Honest, vocal confession of all mortal sins (in kind and number) to the priest.",
+      "Fulfillment of the assigned penance and prayer of the Act of Contrition."
+    ],
+    "inquiryInstructions": "No prior booking is required for standard Saturday confessions. For extended spiritual direction or emergency confession for the sick, call the Parish Office."
+  },
+  {
+    "id": "anointing",
+    "name": "Anointing of the Sick",
+    "classification": "Sacraments of Healing",
+    "scripture": "Is anyone among you sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord. (James 5:14)",
+    "description": "Through the sacred anointing of the sick and the prayer of the priests, the whole Church commends the sick to the suffering and glorified Lord, that He may raise them up and save them. It imparts courage, peace, and spiritual strength to endure illness or old age, unites the sufferer with Christ's Passion, forgives sins if the sick person is unable to confess, and prepares for the journey to eternal life (Viaticum).",
+    "schedule": "Administered upon request at home, hospital, or church. Communal Anointing Mass is celebrated on the World Day of the Sick (11th February).",
+    "requirements": [
+      "Conferred upon Catholic faithful who are dangerously ill, preparing for serious surgery, or weakened by advanced age.",
+      "The sacrament can be repeated if the sick person recovers and falls ill again, or if the same illness becomes more serious."
+    ],
+    "inquiryInstructions": "In case of grave illness or impending death, do not delay. Contact the parish priest or emergency sick-call line immediately through the parish emergency line or office."
+  },
+  {
+    "id": "matrimony",
+    "name": "Sacrament of Holy Matrimony (Marriage)",
+    "classification": "Sacraments at the Service of Communion",
+    "scripture": "What therefore God has joined together, let not man put asunder. (Mark 10:9)",
+    "description": "The matrimonial covenant, by which a baptized man and a baptized woman establish between themselves a partnership of the whole of life, is by its nature ordered toward the good of the spouses and the procreation and education of offspring. Validly contracted between baptized persons, marriage is elevated to the dignity of a holy sacrament, reflecting Christ's unbreakable love for His Bride, the Church.",
+    "schedule": "Weddings are celebrated on Saturdays at 10:00 AM or 12:00 Noon by prior booking (excluding closed seasons such as Lent, unless with episcopal dispensation).",
+    "requirements": [
+      "Notice of intention to marry must be given to the Parish Priest at least six (6) months prior to the proposed wedding date.",
+      "Both parties must be free to marry canonically (no prior valid marriage bond).",
+      "Presentation of baptismal certificates issued within the preceding six months with marriage annotations.",
+      "Completion of the Diocesan Pre-Cana Marriage Preparation Course.",
+      "Publication of the Three Banns of Marriage in both the bride's and groom's home parishes."
+    ],
+    "inquiryInstructions": "Intending couples must schedule an initial interview with the Parish Priest at least six months before their anticipated wedding date. Download the marriage checklist from our resources."
+  },
+  {
+    "id": "holy-orders",
+    "name": "Sacrament of Holy Orders (Priesthood & Diaconate)",
+    "classification": "Sacraments at the Service of Communion",
+    "scripture": "Do this in remembrance of me. (Luke 22:19) / He who hears you hears me. (Luke 10:16)",
+    "description": "Holy Orders is the sacrament through which the mission entrusted by Christ to His apostles continues to be exercised in the Church until the end of time. It comprises three degrees: the episcopate (bishops), the presbyterate (priests), and the diaconate (deacons). Catholic priests are consecrated to preach the Gospel, shepherd the faithful, and celebrate the Holy Mysteries, especially the Holy Sacrifice of the Mass.",
+    "schedule": "Ordinations are conferred by the Bishop of Issele-Uku at St. Paul's Cathedral, Issele-Uku.",
+    "requirements": [
+      "Baptized and confirmed Catholic male with sound moral character and exemplary faith.",
+      "Discerning a divine calling to celibate, sacrificial service in the Catholic Church.",
+      "Recommendation by the Parish Priest and acceptance by the Diocesan Vocation Director.",
+      "Completion of minor/major seminary formation and theological studies."
+    ],
+    "inquiryInstructions": "Young men discerning a vocation to the priesthood or religious life are invited to speak with the Parish Priest or the Diocesan Vocation Director (Catholic Diocese of Issele-Uku)."
+  }
+]

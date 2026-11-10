@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ann-01",
+    "title": "Banns of Marriage: Brother Emeka Osakwe & Sister Blessing Umeh",
+    "category": "banns",
+    "badge": "Wedding Banns",
+    "date": "2026-11-29",
+    "isUrgent": false,
+    "summary": "Third and final publication of the Banns of Marriage between Brother Emeka Gabriel Osakwe and Sister Blessing Nneka Umeh.",
+    "content": "This is to announce the third and final publication of the Banns of Marriage between Brother Emeka Gabriel Osakwe, son of Late Mr. Augustine and Mrs. Grace Osakwe of Umuaji Quarters, Ugbolu, and Sister Blessing Nneka Umeh, daughter of Mr. & Mrs. Christopher Umeh of Umueze Quarters, Asaba (St. Michael's Parish). The wedding will take place on Saturday, 12th December 2026 at 10:00 AM at SS Peter and Paul Catholic Church, Ugbolu. If anyone knows of any reason or canonical impediment why this holy union should not take place, they are bound under conscience to report to the Parish Priest immediately.",
+    "contactPerson": "Parish Secretary / Parish Office"
+  },
+  {
+    "id": "ann-02",
+    "title": "Solemnity of the Immaculate Conception (Holy Day of Obligation)",
+    "category": "liturgical",
+    "badge": "Holy Day of Obligation",
+    "date": "2026-12-01",
+    "isUrgent": true,
+    "summary": "Masses for the Solemnity of the Immaculate Conception on Tuesday, 8th December 2026 at 6:00 AM and 6:00 PM.",
+    "content": "Tuesday, 8th December 2026 is the Solemnity of the Immaculate Conception of the Blessed Virgin Mary, Principal Patroness of the Catholic Church in Nigeria. As a Holy Day of Obligation, all faithful are obligated to participate in Holy Mass and refrain from servile labour where possible. Holy Masses will be celebrated at 6:00 AM and 6:00 PM at the main parish church. There will be floral offering and Marian consecration at the grotto immediately following the evening Mass.",
+    "contactPerson": "Liturgical Committee"
+  },
+  {
+    "id": "ann-03",
+    "title": "Parish Advent Penitential Service & General Confessions",
+    "category": "sacramental",
+    "badge": "Confessions",
+    "date": "2026-12-05",
+    "isUrgent": true,
+    "summary": "Parish Advent Penitential Service on Thursday, 17th December 2026 from 4:00 PM with visiting confessors.",
+    "content": "To prepare our hearts worthy of the joyful celebration of Christmas, the annual Parish Advent Penitential Service will take place on Thursday, 17th December 2026 starting at 4:00 PM. Seven visiting priests from neighbouring parishes within the Asaba Deanery will be available to hear individual confessions in English, Igbo, and Pidgin. All parishioners are warmly urged to make good use of this opportunity of grace.",
+    "contactPerson": "Rev. Fr. Emmanuel Okonkwo"
+  },
+  {
+    "id": "ann-04",
+    "title": "Society of St. Vincent de Paul: Christmas Charity Drive",
+    "category": "outreach",
+    "badge": "Charity & Welfare",
+    "date": "2026-11-20",
+    "isUrgent": false,
+    "summary": "Collection of foodstuff, provisions, and clothing for indigent households in Ugbolu community.",
+    "content": "The Society of St. Vincent de Paul (SSVP), Ugbolu Parish Conference, appeals for your generous donations of non-perishable food items (rice, beans, tubers of yam, vegetable oil, tomato paste), toiletries, and clean clothing to support 75 needy families and elderly parishioners this Christmas season. Financial contributions can also be paid directly to the SSVP welfare account. Donations can be dropped off at the SSVP charity desk after every Sunday Mass.",
+    "contactPerson": "Bro. Stephen Mordi (SSVP President)"
+  },
+  {
+    "id": "ann-05",
+    "title": "Diocesan Youth Convention: Registration Now Open",
+    "category": "diocesan",
+    "badge": "Diocesan Announcement",
+    "date": "2026-11-18",
+    "isUrgent": false,
+    "summary": "Annual Catholic Diocese of Issele-Uku Youth Convention scheduled for January 2027 at St. Paul's Cathedral, Issele-Uku.",
+    "content": "The Catholic Diocese of Issele-Uku Diocesan Youth Chaplaincy announces that registration has commenced for the 2027 Annual Diocesan Youth Convention holding at St. Paul's Minor Seminary and Cathedral, Issele-Uku. The theme is 'Arise, Shine, for Your Light Has Come' (Isaiah 60:1). Parish CYON delegates should complete their documentation with the Parish Youth Chaplain before 20th December 2026.",
+    "contactPerson": "Parish Youth Chaplain / CYON Executive"
+  },
+  {
+    "id": "ann-06",
+    "title": "Condolence & Funeral Announcement: Pa Anthony Chukwudi Okolie",
+    "category": "condolences",
+    "badge": "Funeral Announcement",
+    "date": "2026-11-25",
+    "isUrgent": false,
+    "summary": "Funeral ceremonies for the late Pa Anthony Chukwudi Okolie (aged 84) of Ugbolu.",
+    "content": "With deep gratitude to Almighty God for a Christian life well lived, the family of Late Pa Anthony Chukwudi Okolie (Ezinna), in conjunction with the Catholic Men Organisation (CMO) and the Parish Pastoral Council, announces the transition to eternal glory of our patriarch. Funeral arrangements: Vigil Mass on Thursday, 14th January 2027 at 5:00 PM; Funeral Mass on Friday, 15th January 2027 at 10:00 AM at SS Peter and Paul Catholic Church, Ugbolu; followed by interment at his country home. May his noble soul rest in peace.",
+    "contactPerson": "CMO Publicity Committee"
+  },
+  {
+    "id": "ann-07",
+    "title": "Infant Baptism & Catechism Registration",
+    "category": "sacramental",
+    "badge": "Sacraments",
+    "date": "2026-11-22",
+    "isUrgent": false,
+    "summary": "Next batch of Infant Baptism scheduled for Saturday, 19th December 2026 at 9:00 AM.",
+    "content": "Parents wishing to present their infants for the Sacrament of Baptism are reminded that the mandatory preparatory instruction class holds on Saturday, 19th December at 9:00 AM. Both parents and Catholic godparents must attend. Also, registration for the 2027 session of First Holy Communion and Confirmation catechism classes will open on Sunday, 3rd January 2027 at the Catechetical Office.",
+    "contactPerson": "Head Catechist"
+  },
+  {
+    "id": "ann-08",
+    "title": "Parish Development Project: Administrative Hall Roofing Appeal",
+    "category": "general",
+    "badge": "Parish Project",
+    "date": "2026-11-10",
+    "isUrgent": false,
+    "summary": "Progress report and building fund appeal for the new parish pastoral and administrative centre.",
+    "content": "The Parish Pastoral Council (PPC) and Church Building Committee extend heartfelt gratitude to all generous donors and societies who have fulfilled their pledges towards the new Parish Administrative and Catechetical Centre. Roofing works are scheduled to commence in January 2027. Parishioners are encouraged to redeem their outstanding pledges and support this milestone project for the advancement of God's work in Ugbolu.",
+    "contactPerson": "Building Committee Chairman"
+  }
+]

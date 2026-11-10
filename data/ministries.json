@@ -1,0 +1,218 @@
+[
+  {
+    "id": "cmo",
+    "name": "Catholic Men Organisation (CMO)",
+    "motto": "Christ is Our Strength / Unity and Faith",
+    "patronSaint": "Saint Joseph the Worker",
+    "category": "laity",
+    "icon": "user-check",
+    "shortDescription": "Uniting all Catholic men and fathers in spiritual growth, family leadership, fellowship, and active service to the Church and Ugbolu community.",
+    "description": "The Catholic Men Organisation (CMO) of SS Peter and Paul, Ugbolu, brings together all married and adult men in the parish. CMO fosters authentic Catholic fatherhood, assists in church development projects, mentors young men, supports parish liturgical programs, and advocates for peaceful community development in Ugbolu and across the Catholic Diocese of Issele-Uku.",
+    "meetingSchedule": "Second Sunday of every month, immediately following the 8:30 AM High Mass.",
+    "meetingLocation": "Parish Father's Hall",
+    "keyActivities": [
+      "Annual Father's Day celebrations and spiritual retreats",
+      "Sponsorship of major parish infrastructure projects",
+      "Welfare visits and fraternal support for elderly and bereaved members",
+      "Mentorship programs for young men and parish altar servers"
+    ],
+    "officers": {
+      "president": "Sir (Engr.) Patrick Elumelu (Demo)",
+      "secretary": "Bro. Francis Odu (Demo)",
+      "chaplain": "Rev. Fr. Emmanuel Okonkwo"
+    },
+    "howToJoin": "All baptized Catholic adult men residing within Ugbolu and its environs are eligible. Register with the CMO secretariat after Sunday Mass."
+  },
+  {
+    "id": "cwo",
+    "name": "Catholic Women Organisation (CWO)",
+    "motto": "Through Mary to Jesus / Light of the Family",
+    "patronSaint": "Our Lady of Good Counsel",
+    "category": "laity",
+    "icon": "heart",
+    "shortDescription": "Fostering spiritual devotion, Christian homemaking, charity, and active lay apostolate among Catholic mothers and women.",
+    "description": "The Catholic Women Organisation (CWO) is the vibrant heartbeat of maternal devotion, family spirituality, and parish charity. Rooted in Marian spirituality, the CWO supports the upkeep of the sanctuary, visits the sick and widows, organizes marriage enrichment seminars, and actively champions the annual Mother's Day and August Return initiatives.",
+    "meetingSchedule": "Third Sunday of every month, immediately following the 8:30 AM High Mass.",
+    "meetingLocation": "Parish Main Auditorium",
+    "keyActivities": [
+      "Annual Catholic Mother's Day celebration and award of exemplary mothers",
+      "Hospital visits and distribution of food baskets to widows and orphans",
+      "Sanctuary cleaning and provision of liturgical vestments and altar linens",
+      "Skills acquisition workshops and health talks for young mothers"
+    ],
+    "officers": {
+      "president": "Lady Theresa Anazia (Demo)",
+      "secretary": "Mrs. Ngozi Chukwuma (Demo)",
+      "chaplain": "Rev. Fr. Augustine Nwabuokei"
+    },
+    "howToJoin": "Open to all Catholic women, wives, and mothers. Enrolment is facilitated during monthly general meetings."
+  },
+  {
+    "id": "cyon",
+    "name": "Catholic Youth Organisation of Nigeria (CYON)",
+    "motto": "For God and Youth / Through Christ Our Lord",
+    "patronSaint": "Saint John Bosco & Saint Charles Lwanga",
+    "category": "youth",
+    "icon": "zap",
+    "shortDescription": "Mobilizing Catholic youths for vibrant spiritual development, leadership training, community outreach, and joyous Christian fellowship.",
+    "description": "The CYON at SS Peter and Paul, Ugbolu, provides an uplifting environment where young Catholics aged 18 to 35 channel their energy, creativity, and talents into the service of God and society. Through Bible studies, sports tournaments, vocational masterclasses, choral dramas, and diocesan youth rallies, our youths grow into responsible Christian leaders.",
+    "meetingSchedule": "Every Saturday at 4:00 PM.",
+    "meetingLocation": "Parish Youth Centre",
+    "keyActivities": [
+      "Weekly youth fellowships, Bible discussions, and praise & worship",
+      "Annual Parish Youth Week, sports festivals, and talent expos",
+      "Career mentoring, digital skills training, and entrepreneurship talks",
+      "Active participation in Asaba Deanery and Diocesan youth conventions"
+    ],
+    "officers": {
+      "president": "Bro. Emmanuel Nwanze (Demo)",
+      "secretary": "Sis. Kester Obi (Demo)",
+      "chaplain": "Rev. Fr. Augustine Nwabuokei"
+    },
+    "howToJoin": "Every unmarried young person in the parish who has received First Holy Communion is warmly invited to attend weekly Saturday meetings."
+  },
+  {
+    "id": "choir",
+    "name": "St. Cecilia Liturgical Music Ministry (Parish Choir)",
+    "motto": "He Who Sings Well Prays Twice (St. Augustine)",
+    "patronSaint": "Saint Cecilia, Virgin and Martyr",
+    "category": "liturgy",
+    "icon": "music",
+    "shortDescription": "Leading the congregation in reverent liturgical praise, Gregorian chant, sacred polyphony, and contemporary Catholic hymns.",
+    "description": "The Parish Choir elevates the worship of God through the beauty of sacred music during Sunday Masses, solemnities, weddings, and funeral liturgies. With a rich repertoire spanning Latin chants, English choral anthems, and inspiring traditional Nigerian hymns (Igbo, Delta-Igbo, and other indigenous languages), the choir fosters deep spiritual recollection.",
+    "meetingSchedule": "Tuesdays & Thursdays, 6:30 PM - 8:30 PM (Rehearsals); Saturdays 5:00 PM.",
+    "meetingLocation": "Church Choir Gallery",
+    "keyActivities": [
+      "Ministration at all Sunday High Masses and solemn feasts",
+      "Annual Festival of Nine Lessons and Carols at Christmas",
+      "Liturgical music workshops and vocal training for choristers",
+      "Feast of St. Cecilia choral concert and anniversary celebration"
+    ],
+    "officers": {
+      "choirmaster": "Mr. Sylvester Onyeka (Demo)",
+      "secretary": "Miss Jennifer Okoh (Demo)",
+      "chaplain": "Rev. Fr. Emmanuel Okonkwo"
+    },
+    "howToJoin": "Auditions are open to parishioners with a passion for singing and willingness to commit to scheduled rehearsals."
+  },
+  {
+    "id": "altar-servers",
+    "name": "Altar Servers Association (St. Tarcisius)",
+    "motto": "Serve the Lord with Gladness (Psalm 100:2)",
+    "patronSaint": "Saint Tarcisius & Saint Dominic Savio",
+    "category": "liturgy",
+    "icon": "shield",
+    "shortDescription": "Assisting the Sacred Ministers at the altar during Holy Mass, Benediction, and liturgical processions with devotion and precision.",
+    "description": "The Altar Servers of SS Peter and Paul are boys and girls trained in the sacred rituals of the Catholic Mass. Serving at the altar instills deep reverence for the Holy Eucharist, personal discipline, team spirit, and often nurtures vocations to the Catholic priesthood and religious life.",
+    "meetingSchedule": "Saturdays at 9:00 AM (Practice & Liturgical Formation).",
+    "meetingLocation": "Main Church Sanctuary & Sacristy",
+    "keyActivities": [
+      "Serving daily morning and Sunday Masses, funerals, and weddings",
+      "Annual vestition and investiture ceremony for new servers",
+      "Spiritual retreats and pilgrimage to the Diocesan Cathedral in Issele-Uku",
+      "Annual Feast of St. Tarcisius celebration"
+    ],
+    "officers": {
+      "president": "Master Augustine Mordi (Senior Server - Demo)",
+      "director": "Bro. Paulinus Eke (Demo)",
+      "chaplain": "Rev. Fr. Augustine Nwabuokei"
+    },
+    "howToJoin": "Open to baptized Catholic children who have received First Holy Communion and demonstrate reverence and good conduct."
+  },
+  {
+    "id": "legion-of-mary",
+    "name": "Legion of Mary (Praesidium Queen of Apostles)",
+    "motto": "Who is She that Cometh Forth as the Morning Rising?",
+    "patronSaint": "The Blessed Virgin Mary",
+    "category": "apostolate",
+    "icon": "star",
+    "shortDescription": "Engaged in Marian spirituality, spiritual warfare through the Rosary, door-to-door evangelization, and visitation of the sick.",
+    "description": "The Legion of Mary is a world-wide association of Catholics who, under the banner of Mary, sanctify themselves through prayer and active apostolic work. Members visit the homebound, counsel fallen-away Catholics, teach catechism, and spread devotion to the Most Holy Rosary in Ugbolu community.",
+    "meetingSchedule": "Wednesdays at 5:00 PM (Senior Praesidium); Saturdays at 3:00 PM (Junior Praesidium).",
+    "meetingLocation": "Parish Grotto / Room 3",
+    "keyActivities": [
+      "Weekly home visitation and bedside ministry to sick parishioners",
+      "Annual Acies ceremony of consecration to Our Lady",
+      "Recitation of the Holy Rosary before weekday and Sunday Masses",
+      "Distribution of Catholic miraculous medals and rosaries to inquirers"
+    ],
+    "officers": {
+      "president": "Bro. Barnabas Igwe (Demo)",
+      "secretary": "Sis. Cecilia Eze (Demo)",
+      "spiritualDirector": "Rev. Fr. Emmanuel Okonkwo"
+    },
+    "howToJoin": "Attend any Wednesday meeting to begin probation as an active or auxiliary (praying) member."
+  },
+  {
+    "id": "lectors",
+    "name": "Catholic Biblical Apostolate & Lectors Ministry",
+    "motto": "Thy Word is a Lamp Unto My Feet (Psalm 119:105)",
+    "patronSaint": "Saint Jerome",
+    "category": "liturgy",
+    "icon": "book-open",
+    "shortDescription": "Proclaiming the Sacred Word of God with reverence, clarity, and liturgical dignity during Holy Mass.",
+    "description": "Lectors and Commentators are consecrated to the proclamation of the Sacred Scriptures during the Liturgy of the Word. Through rigorous training in voice projection, pronunciation, liturgical etiquette, and biblical meditation, they break open the Word of God for the assembly.",
+    "meetingSchedule": "Fridays at 5:00 PM (Preparation & Scriptural Exegesis).",
+    "meetingLocation": "Sacristy / Parish Chapel",
+    "keyActivities": [
+      "Proclamation of First and Second Readings and General Intercessions",
+      "Liturgical commentary and guidance during solemn pontifical celebrations",
+      "Bible study sessions and workshops on effective public reading",
+      "Annual Bible Week and St. Jerome Feast day colloquium"
+    ],
+    "officers": {
+      "leader": "Barr. Callistus Nwokolo (Demo)",
+      "secretary": "Miss Vivian Nduka (Demo)",
+      "chaplain": "Rev. Fr. Emmanuel Okonkwo"
+    },
+    "howToJoin": "Baptized, confirmed Catholics with clear voice diction and love for the Scriptures may audition with the lectors executive."
+  },
+  {
+    "id": "ssvp",
+    "name": "Society of Saint Vincent de Paul (SSVP)",
+    "motto": "No Work of Charity is Foreign to the Society",
+    "patronSaint": "Saint Vincent de Paul & Blessed Frédéric Ozanam",
+    "category": "apostolate",
+    "icon": "gift",
+    "shortDescription": "Person-to-person charity, welfare assistance, and corporal works of mercy for the needy and suffering in Ugbolu.",
+    "description": "The SSVP is an international lay Catholic organization dedicated to tackling poverty and social disadvantage. In Ugbolu, the conference identifies destitute families, provides monthly food rations, assists with basic medical bills and school fees, and restores human dignity in the spirit of Christ.",
+    "meetingSchedule": "Every Saturday at 3:00 PM.",
+    "meetingLocation": "Parish Welfare Room",
+    "keyActivities": [
+      "Weekly adoption and visitation of indigent households in Ugbolu",
+      "Monthly collection of food items and secret charity distribution",
+      "Prison visitation and medical welfare assistance",
+      "Feast of St. Vincent de Paul charity banquet with the underprivileged"
+    ],
+    "officers": {
+      "president": "Bro. Stephen Mordi (Demo)",
+      "treasurer": "Mrs. Agnes Okonji (Demo)",
+      "chaplain": "Rev. Fr. Emmanuel Okonkwo"
+    },
+    "howToJoin": "Anyone with a heart for charitable work and compassionate service to the poor is welcome."
+  },
+  {
+    "id": "ppc",
+    "name": "Parish Pastoral Council (PPC)",
+    "motto": "One Body in Christ (Romans 12:5)",
+    "patronSaint": "Saints Peter and Paul",
+    "category": "leadership",
+    "icon": "users",
+    "shortDescription": "The supreme advisory consultative body collaborating with the Parish Priest to shepherd and govern the parish community.",
+    "description": "Comprising representatives from all approved parish pious societies, ethnic apostolates, youth bodies, and quarter wards in Ugbolu, the PPC assists the Parish Priest in pastoral planning, policy formulation, parish development, and promoting peace and communion.",
+    "meetingSchedule": "First Sunday of every bi-monthly cycle at 2:00 PM.",
+    "meetingLocation": "Parish Conference Hall",
+    "keyActivities": [
+      "Pastoral planning and coordination of liturgical and parish events",
+      "Supervision of parish infrastructure, security, and financial stewardship",
+      "Conflict resolution and community liaison with Ugbolu traditional council",
+      "Reporting to the Issele-Uku Diocesan Pastoral Council"
+    ],
+    "officers": {
+      "chairman": "Rev. Fr. Emmanuel Okonkwo (Parish Priest)",
+      "viceChairman": "Sir Patrick Elumelu (Demo)",
+      "secretary": "Lady Beatrice Nwanze (Demo)"
+    },
+    "howToJoin": "Membership is by statutory appointment and election through recognized parish pious societies and quarter wards."
+  }
+]

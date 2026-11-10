@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A0B16" />
+      <stop offset="40%" stop-color="#3D1221" />
+      <stop offset="80%" stop-color="#581628" />
+      <stop offset="100%" stop-color="#22060F" />
+    </linearGradient>
+    <radialGradient id="roseGlow" cx="50%" cy="32%" r="45%">
+      <stop offset="0%" stop-color="#FFEFA8" stop-opacity="0.9" />
+      <stop offset="25%" stop-color="#ECC94B" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#80182A" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1A0B16" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="goldBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Architecture -->
+  <rect width="1600" height="900" fill="url(#skyGrad)"/>
+
+  <!-- Light Beam Cones -->
+  <polygon points="800,280 400,900 1200,900" fill="url(#goldBeam)" opacity="0.35"/>
+  <polygon points="800,280 200,900 1400,900" fill="url(#goldBeam)" opacity="0.18"/>
+
+  <!-- Rose Window Radial Glow -->
+  <circle cx="800" cy="290" r="380" fill="url(#roseGlow)"/>
+
+  <!-- Gothic Arch Tracery Background -->
+  <!-- Left Columns & Arches -->
+  <g stroke="#D4AF37" stroke-width="2" opacity="0.3" fill="none">
+    <path d="M 0,0 L 400,350 L 400,900" />
+    <path d="M 0,150 L 300,420 L 300,900" />
+    <path d="M 1600,0 L 1200,350 L 1200,900" />
+    <path d="M 1600,150 L 1300,420 L 1300,900" />
+  </g>
+
+  <!-- Great Central Stained Glass Rose Window -->
+  <g transform="translate(800, 290)" filter="url(#softGlow)">
+    <!-- Outer Stone Framework -->
+    <circle cx="0" cy="0" r="185" fill="none" stroke="#251016" stroke-width="16" />
+    <circle cx="0" cy="0" r="176" fill="none" stroke="#D4AF37" stroke-width="4" />
+    <circle cx="0" cy="0" r="145" fill="none" stroke="#ECC94B" stroke-width="2" stroke-dasharray="8,6" />
+
+    <!-- 12 Petals of the Apostles -->
+    <g>
+      <circle cx="0" cy="-115" r="30" fill="#80182A" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="58" cy="-100" r="30" fill="#2B4C7E" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="100" cy="-58" r="30" fill="#C59B27" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="115" cy="0" r="30" fill="#80182A" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="100" cy="58" r="30" fill="#2B4C7E" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="58" cy="100" r="30" fill="#C59B27" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="0" cy="115" r="30" fill="#80182A" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="-58" cy="100" r="30" fill="#2B4C7E" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="-100" cy="58" r="30" fill="#C59B27" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="-115" cy="0" r="30" fill="#80182A" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="-100" cy="-58" r="30" fill="#2B4C7E" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+      <circle cx="-58" cy="-100" r="30" fill="#C59B27" stroke="#ECC94B" stroke-width="2.5" opacity="0.85"/>
+    </g>
+
+    <!-- Inner Rose Circle -->
+    <circle cx="0" cy="0" r="70" fill="#6B1D2F" stroke="#D4AF37" stroke-width="4" />
+    <circle cx="0" cy="0" r="48" fill="#FAF6EE" stroke="#D4AF37" stroke-width="3" />
+
+    <!-- Glorified Chi-Rho and Cross in Rose Center -->
+    <g stroke="#997300" stroke-width="3" fill="#D4AF37">
+      <line x1="0" y1="-30" x2="0" y2="30" />
+      <line x1="-20" y1="-12" x2="20" y2="-12" />
+      <!-- Chi Rho Loop -->
+      <path d="M 0,-30 C 14,-30 14,-8 0,-8" fill="none" stroke="#997300" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Grand Altar and Crucifix Silhouette -->
+  <!-- Altar Steps -->
+  <polygon points="520,780 1080,780 1140,820 460,820" fill="#3A151F" stroke="#D4AF37" stroke-width="1.5"/>
+  <polygon points="460,820 1140,820 1200,860 400,860" fill="#2E0E17" stroke="#D4AF37" stroke-width="1.5"/>
+  <polygon points="400,860 1200,860 1260,900 340,900" fill="#20080F" stroke="#D4AF37" stroke-width="2"/>
+
+  <!-- Altar Mensa Table -->
+  <rect x="560" y="730" width="480" height="50" rx="4" fill="#FAF6EE" stroke="#D4AF37" stroke-width="3" filter="url(#softGlow)"/>
+  <rect x="580" y="745" width="440" height="20" fill="none" stroke="#6B1D2F" stroke-width="2" stroke-dasharray="12,6"/>
+
+  <!-- Altar Candles (6 High Mass Candles) -->
+  <g fill="#FFEFA8" filter="url(#softGlow)">
+    <!-- Left candles -->
+    <rect x="590" y="695" width="8" height="35" rx="1" fill="#FFFFFF"/>
+    <ellipse cx="594" cy="690" rx="4" ry="8" fill="#ECC94B"/>
+    <rect x="630" y="695" width="8" height="35" rx="1" fill="#FFFFFF"/>
+    <ellipse cx="634" cy="690" rx="4" ry="8" fill="#ECC94B"/>
+    <rect x="670" y="695" width="8" height="35" rx="1" fill="#FFFFFF"/>
+    <ellipse cx="674" cy="690" rx="4" ry="8" fill="#ECC94B"/>
+    <!-- Right candles -->
+    <rect x="920" y="695" width="8" height="35" rx="1" fill="#FFFFFF"/>
+    <ellipse cx="924" cy="690" rx="4" ry="8" fill="#ECC94B"/>
+    <rect x="960" y="695" width="8" height="35" rx="1" fill="#FFFFFF"/>
+    <ellipse cx="964" cy="690" rx="4" ry="8" fill="#ECC94B"/>
+    <rect x="1000" y="695" width="8" height="35" rx="1" fill="#FFFFFF"/>
+    <ellipse cx="1004" cy="690" rx="4" ry="8" fill="#ECC94B"/>
+  </g>
+
+  <!-- Golden Tabernacle in center of altar -->
+  <g transform="translate(800, 715)">
+    <rect x="-35" y="-55" width="70" height="70" rx="6" fill="#D4AF37" stroke="#7A5A00" stroke-width="3" filter="url(#softGlow)"/>
+    <path d="M -35,-55 Q 0,-85 35,-55 Z" fill="#ECC94B" stroke="#7A5A00" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="14" fill="#6B1D2F" stroke="#FFF2A3" stroke-width="2"/>
+    <line x1="0" y1="-28" x2="0" y2="-12" stroke="#ECC94B" stroke-width="2"/>
+    <line x1="-8" y1="-20" x2="8" y2="-20" stroke="#ECC94B" stroke-width="2"/>
+    <!-- Sanctuary Lamp glowing red -->
+    <ellipse cx="55" cy="-35" rx="8" ry="12" fill="#E53E3E" filter="url(#softGlow)"/>
+    <ellipse cx="55" cy="-35" rx="4" ry="6" fill="#FFF5F5"/>
+  </g>
+
+  <!-- Altar Crucifix -->
+  <g transform="translate(800, 560)">
+    <rect x="-5" y="-70" width="10" height="130" rx="2" fill="#D4AF37" stroke="#7A5A00" stroke-width="2"/>
+    <rect x="-35" y="-45" width="70" height="10" rx="2" fill="#D4AF37" stroke="#7A5A00" stroke-width="2"/>
+    <circle cx="0" cy="-40" r="7" fill="#80182A"/>
+  </g>
+
+  <!-- Front Sanctuary Arch Accentuate Silhouette -->
+  <path d="M 0,0 L 0,900 L 250,900 L 250,550 Q 800,180 1350,550 L 1350,900 L 1600,900 L 1600,0 Z" fill="#15050C" opacity="0.6"/>
+</svg>

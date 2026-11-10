@@ -1,0 +1,141 @@
+/* css/print.css
+   Print Stylesheet for SS Peter and Paul Catholic Church Parish Bulletin
+   Optimized for A4 / Letter paper leaflet printout
+*/
+
+@media print {
+  /* Hide non-printable website chrome */
+  .site-header,
+  .demo-banner,
+  .site-footer,
+  .back-to-top,
+  .bulletin-toolbar,
+  .page-hero,
+  .breadcrumb,
+  .btn,
+  .filter-bar,
+  .toast-container,
+  .mobile-drawer,
+  dialog {
+    display: none !important;
+  }
+
+  /* Reset document for clean paper print */
+  html, body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .bulletin-sheet {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+  }
+
+  .bulletin-masthead {
+    border-bottom: 2pt solid #000000 !important;
+    padding-bottom: 12pt !important;
+    margin-bottom: 14pt !important;
+  }
+
+  .bulletin-masthead-title {
+    color: #000000 !important;
+    font-size: 18pt !important;
+  }
+
+  .bulletin-crest-wrap img {
+    filter: grayscale(100%);
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .bulletin-info-bar {
+    background-color: #F0F0F0 !important;
+    border: 1pt solid #000000 !important;
+    color: #000000 !important;
+    font-size: 9pt !important;
+  }
+
+  .bulletin-liturgy-banner {
+    background: #E5E5E5 !important;
+    color: #000000 !important;
+    border-left: 4pt solid #000000 !important;
+    padding: 8pt 12pt !important;
+    margin-bottom: 14pt !important;
+  }
+
+  .liturgy-sunday-name {
+    color: #000000 !important;
+    font-size: 13pt !important;
+  }
+
+  .liturgy-theme {
+    color: #333333 !important;
+  }
+
+  /* Dual column layout for print */
+  .bulletin-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 16pt !important;
+  }
+
+  .bulletin-section {
+    break-inside: avoid;
+    margin-bottom: 14pt !important;
+  }
+
+  .bulletin-section-title {
+    color: #000000 !important;
+    border-bottom: 1pt solid #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  .pastoral-reflection-box,
+  .readings-card {
+    background: #FFFFFF !important;
+    border: 1pt solid #CCCCCC !important;
+    box-shadow: none !important;
+    padding: 10pt !important;
+  }
+
+  .reflection-title {
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  .badge {
+    border: 1pt solid #000000 !important;
+    color: #000000 !important;
+    background: transparent !important;
+  }
+
+  a {
+    color: #000000 !important;
+    text-decoration: none !important;
+  }
+
+  /* Add print footer */
+  .bulletin-sheet::after {
+    content: "SS Peter and Paul Catholic Church, Ugbolu • Catholic Diocese of Issele-Uku, Delta State, Nigeria • For Inquiries: Parish Office";
+    display: block;
+    text-align: center;
+    font-size: 8pt;
+    color: #555555;
+    border-top: 1pt solid #CCCCCC;
+    padding-top: 8pt;
+    margin-top: 18pt;
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "basicPrayers": [
+    {
+      "id": "sign-of-cross",
+      "title": "The Sign of the Cross (Signum Crucis)",
+      "latin": "In nómine Patris, et Fílii, et Spíritus Sancti. Amen.",
+      "english": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+    },
+    {
+      "id": "our-father",
+      "title": "The Lord's Prayer (Pater Noster)",
+      "latin": "Pater noster, qui es in caelis, sanctificétur nomen tuum. Advéniat regnum tuum. Fiat volúntas tua, sicut in caelo et in terra. Panem nostrum quotidiánum da nobis hódie, et dimítte nobis débita nostra sicut et nos dimíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.",
+      "english": "Our Father, who art in heaven, hallowed be thy name; thy kingdom come; thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."
+    },
+    {
+      "id": "hail-mary",
+      "title": "The Hail Mary (Ave Maria)",
+      "latin": "Ave María, grátia plena, Dóminus tecum. Benedícta tu in muliéribus, et benedíctus fructus ventris tui, Iesus. Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostrae. Amen.",
+      "english": "Hail Mary, full of grace, the Lord is with thee; blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
+    },
+    {
+      "id": "glory-be",
+      "title": "Glory Be to the Father (Gloria Patri)",
+      "latin": "Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen.",
+      "english": "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen."
+    },
+    {
+      "id": "apostles-creed",
+      "title": "The Apostles' Creed (Symbolum Apostolorum)",
+      "english": "I believe in God, the Father Almighty, Creator of heaven and earth, and in Jesus Christ, His only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; He descended into hell; on the third day He rose again from the dead; He ascended into heaven, and is seated at the right hand of God the Father Almighty; from there He will come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."
+    },
+    {
+      "id": "hail-holy-queen",
+      "title": "Hail, Holy Queen (Salve Regina)",
+      "latin": "Salve Regína, Mater misericórdiae, vita, dulcédo, et spes nostra, salve...",
+      "english": "Hail, Holy Queen, Mother of Mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary. Pray for us, O holy Mother of God, that we may be made worthy of the promises of Christ. Amen."
+    },
+    {
+      "id": "memorare",
+      "title": "The Memorare (Prayer of St. Bernard)",
+      "english": "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided. Inspired by this confidence, I fly unto thee, O Virgin of virgins, my Mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen."
+    },
+    {
+      "id": "st-michael",
+      "title": "Prayer to Saint Michael the Archangel",
+      "english": "Saint Michael the Archangel, defend us in battle; be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do thou, O Prince of the heavenly host, by the power of God, cast into hell Satan and all the evil spirits who prowl through the world seeking the ruin of souls. Amen."
+    },
+    {
+      "id": "angelus",
+      "title": "The Angelus",
+      "english": "V. The Angel of the Lord declared unto Mary.\nR. And she conceived of the Holy Spirit. (Hail Mary...)\nV. Behold the handmaid of the Lord.\nR. Be it done unto me according to Thy word. (Hail Mary...)\nV. And the Word was made flesh.\nR. And dwelt among us. (Hail Mary...)\nV. Pray for us, O Holy Mother of God.\nR. That we may be made worthy of the promises of Christ.\nLet us pray: Pour forth, we beseech Thee, O Lord, Thy grace into our hearts; that we, to whom the Incarnation of Christ Thy Son was made known by the message of an Angel, may by His Passion and Cross be brought to the glory of His Resurrection. Through the same Christ our Lord. Amen."
+    },
+    {
+      "id": "act-of-contrition",
+      "title": "Act of Contrition",
+      "english": "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of Thy just punishments, but most of all because they offend Thee, my God, Who art all-good and deserving of all my love. I firmly resolve, with the help of Thy grace, to sin no more, and to avoid the near occasions of sin. Amen."
+    }
+  ],
+  "holyRosary": {
+    "introduction": "The Holy Rosary is a scriptural, contemplative prayer combining vocal prayers with meditation on the twenty mysteries of the life, death, resurrection, and glory of our Lord Jesus Christ and His Blessed Mother Mary.",
+    "howToPray": [
+      "Make the Sign of the Cross and recite the Apostles' Creed on the crucifix.",
+      "Recite the Our Father on the first large bead.",
+      "Recite three Hail Marys for an increase in Faith, Hope, and Charity on the three small beads.",
+      "Recite the Glory Be and the Fatima Prayer ('O my Jesus, forgive us our sins...').",
+      "Announce the First Mystery, meditate on the scriptural passage, and recite the Our Father.",
+      "Pray ten Hail Marys while meditating on the mystery, followed by Glory Be and the Fatima Prayer.",
+      "Repeat for all five decades of the day's mysteries.",
+      "Conclude with the Hail Holy Queen, the Rosary Concluding Prayer, and the Sign of the Cross."
+    ],
+    "mysteries": [
+      {
+        "set": "Joyful Mysteries",
+        "days": "Mondays & Saturdays (and Sundays during Advent/Christmas)",
+        "items": [
+          { "decade": "1st", "title": "The Annunciation of the Angel Gabriel to Mary", "scripture": "Luke 1:26-38", "fruit": "Humility" },
+          { "decade": "2nd", "title": "The Visitation of Mary to Saint Elizabeth", "scripture": "Luke 1:39-56", "fruit": "Love of Neighbour" },
+          { "decade": "3rd", "title": "The Nativity of Our Lord Jesus Christ in Bethlehem", "scripture": "Luke 2:1-20", "fruit": "Poverty of Spirit" },
+          { "decade": "4th", "title": "The Presentation of the Child Jesus in the Temple", "scripture": "Luke 2:22-38", "fruit": "Obedience" },
+          { "decade": "5th", "title": "The Finding of Jesus in the Temple", "scripture": "Luke 2:41-52", "fruit": "Joy in Finding God" }
+        ]
+      },
+      {
+        "set": "Luminous Mysteries (Mysteries of Light)",
+        "days": "Thursdays",
+        "items": [
+          { "decade": "1st", "title": "The Baptism of the Lord Jesus in the Jordan", "scripture": "Matthew 3:13-17", "fruit": "Openness to the Holy Spirit" },
+          { "decade": "2nd", "title": "The Self-Manifestation of Jesus at the Wedding at Cana", "scripture": "John 2:1-12", "fruit": "To Jesus through Mary" },
+          { "decade": "3rd", "title": "The Proclamation of the Kingdom of God and Call to Conversion", "scripture": "Mark 1:14-15", "fruit": "Repentance & Trust in God" },
+          { "decade": "4th", "title": "The Transfiguration of Jesus on Mount Tabor", "scripture": "Matthew 17:1-8", "fruit": "Desire for Holiness" },
+          { "decade": "5th", "title": "The Institution of the Most Holy Eucharist", "scripture": "Matthew 26:26-30", "fruit": "Eucharistic Adoration" }
+        ]
+      },
+      {
+        "set": "Sorrowful Mysteries",
+        "days": "Tuesdays & Fridays (and daily during Lent)",
+        "items": [
+          { "decade": "1st", "title": "The Agony of Jesus in the Garden of Gethsemane", "scripture": "Matthew 26:36-46", "fruit": "Sorrow for Sin" },
+          { "decade": "2nd", "title": "The Scourging of Jesus at the Pillar", "scripture": "Matthew 27:26", "fruit": "Purity and Mortification" },
+          { "decade": "3rd", "title": "The Crowning of Jesus with Thorns", "scripture": "Matthew 27:27-31", "fruit": "Moral Courage" },
+          { "decade": "4th", "title": "The Carrying of the Cross to Calvary", "scripture": "John 19:16-17", "fruit": "Patience in Sufferings" },
+          { "decade": "5th", "title": "The Crucifixion and Death of Jesus on the Cross", "scripture": "Luke 23:33-46", "fruit": "Self-Giving Love & Forgiveness" }
+        ]
+      },
+      {
+        "set": "Glorious Mysteries",
+        "days": "Wednesdays & Sundays (throughout Ordinary Time & Easter)",
+        "items": [
+          { "decade": "1st", "title": "The Glorious Resurrection of Jesus from the Dead", "scripture": "John 20:1-18", "fruit": "Faith" },
+          { "decade": "2nd", "title": "The Ascension of Jesus into Heaven", "scripture": "Acts 1:9-11", "fruit": "Christian Hope" },
+          { "decade": "3rd", "title": "The Descent of the Holy Spirit upon the Apostles at Pentecost", "scripture": "Acts 2:1-4", "fruit": "Love of God and Zeal" },
+          { "decade": "4th", "title": "The Assumption of the Blessed Virgin Mary into Heaven", "scripture": "Revelation 12:1", "fruit": "Grace of a Happy Death" },
+          { "decade": "5th", "title": "The Coronation of Mary as Queen of Heaven and Earth", "scripture": "Revelation 12:1", "fruit": "Trust in Mary's Intercession" }
+        ]
+      }
+    ]
+  },
+  "divineMercyChaplet": {
+    "title": "The Chaplet of the Divine Mercy",
+    "origin": "Dictated by Our Lord Jesus Christ to Saint Faustina Kowalska in 1935 as a powerful conduit of Divine Mercy for the world, especially at the hour of death.",
+    "instructions": [
+      "Using standard Rosary beads, begin with: The Sign of the Cross, one Our Father, one Hail Mary, and The Apostles' Creed.",
+      "On the large bead before each decade, pray: 'Eternal Father, I offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ, in atonement for our sins and those of the whole world.'",
+      "On each of the 10 small beads of each decade, pray: 'For the sake of His sorrowful Passion, have mercy on us and on the whole world.'",
+      "After five decades, conclude by reciting three times: 'Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world.'",
+      "Closing Prayer: 'Eternal God, in whom mercy is endless and the treasury of compassion inexhaustible, look kindly upon us and increase Your mercy in us, that in difficult moments we might not despair nor become despondent, but with great confidence submit ourselves to Your holy will, which is Love and Mercy itself. Amen.'"
+    ]
+  },
+  "stationsOfTheCross": [
+    { "number": 1, "title": "Jesus is Condemned to Death", "meditation": "Pilate judges the innocent Lamb of God. Lord, teach us never to condemn our neighbour." },
+    { "number": 2, "title": "Jesus Carries His Cross", "meditation": "Christ willingly accepts the heavy wood of our transgressions." },
+    { "number": 3, "title": "Jesus Falls the First Time", "meditation": "Weakened by brutality, Christ collapses beneath the weight." },
+    { "number": 4, "title": "Jesus Meets His Afflicted Mother", "meditation": "A sword of grief pierces the Immaculate Heart of Mary." },
+    { "number": 5, "title": "Simon of Cyrene Helps Jesus Carry His Cross", "meditation": "An African passer-by shares the sacred burden of the Redeemer." },
+    { "number": 6, "title": "Veronica Wipes the Sacred Face of Jesus", "meditation": "Compassion imprints Christ's divine likeness upon her veil." },
+    { "number": 7, "title": "Jesus Falls the Second Time", "meditation": "The repeated agony of Christ calls us out of habitual sin." },
+    { "number": 8, "title": "Jesus Meets the Women of Jerusalem", "meditation": "Jesus bids them weep not for Him, but for themselves and their children." },
+    { "number": 9, "title": "Jesus Falls the Third Time", "meditation": "Exhausted near Calvary, Jesus falls yet rises to accomplish our redemption." },
+    { "number": 10, "title": "Jesus is Stripped of His Garments", "meditation": "The Lord of glory is stripped to clothe our human nakedness." },
+    { "number": 11, "title": "Jesus is Nailed to the Cross", "meditation": "Cruel iron pierces hands that brought healing and blessing." },
+    { "number": 12, "title": "Jesus Dies upon the Cross", "meditation": "'It is finished.' Into Your hands, Father, I commend My spirit." },
+    { "number": 13, "title": "Jesus is Taken Down from the Cross", "meditation": "The lifeless body of the Saviour is placed in Mary's loving arms." },
+    { "number": 14, "title": "Jesus is Laid in the Tomb", "meditation": "In the silence of the sepulchre, the Church awaits the dawn of Easter." }
+  ],
+  "liturgicalSeasons": [
+    {
+      "name": "Advent",
+      "color": "Violet / Purple (Rose on Gaudete Sunday)",
+      "duration": "Four Sundays preceding Christmas",
+      "meaning": "Season of watchful expectation and preparation for the twofold coming of Christ: His birth in Bethlehem and His return in glory at the end of time."
+    },
+    {
+      "name": "Christmas Season",
+      "color": "White / Gold",
+      "duration": "From Christmas Eve Vigil to the Feast of the Baptism of the Lord",
+      "meaning": "Celebration of the mystery of the Incarnation — the Word made flesh dwelling among us, bringing light into darkness."
+    },
+    {
+      "name": "Lent",
+      "color": "Violet / Purple (Rose on Laetare Sunday)",
+      "duration": "Forty days from Ash Wednesday to Holy Thursday",
+      "meaning": "Penitential season of fasting, intense prayer, and almsgiving in imitation of Christ's forty days in the wilderness."
+    },
+    {
+      "name": "The Sacred Paschal Triduum",
+      "color": "White (Holy Thursday), Red (Good Friday), White / Gold (Easter Vigil)",
+      "duration": "Holy Thursday Evening to Easter Sunday Evening",
+      "meaning": "The summit of the entire liturgical year, remembering Christ's Last Supper, Passion, Crucifixion, and glorious Resurrection."
+    },
+    {
+      "name": "Easter Season",
+      "color": "White / Gold (Red on Pentecost)",
+      "duration": "Fifty days from Easter Sunday to Pentecost",
+      "meaning": "Exultant celebration of Christ's victory over sin and death, culminating in the outpouring of the Holy Spirit at Pentecost."
+    },
+    {
+      "name": "Ordinary Time",
+      "color": "Green",
+      "duration": "33 or 34 weeks divided into two periods (after Christmas and after Pentecost)",
+      "meaning": "The continuous celebration of the life and ministry of Jesus Christ, growing in Christian discipleship and everyday fidelity."
+    }
+  ]
+}

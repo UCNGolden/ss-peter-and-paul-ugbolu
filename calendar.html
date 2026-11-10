@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Church Calendar | SS Peter and Paul Catholic Church, Ugbolu</title>
+  <meta name="description" content="Interactive Catholic Liturgical Calendar for SS Peter and Paul Catholic Church, Ugbolu (Catholic Diocese of Issele-Uku). Sundays, solemnities, liturgical seasons, and parish society events.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+  <!-- Demo Banner -->
+  <aside class="demo-banner" role="complementary">
+    <div class="container demo-banner-content">
+      <span class="demo-tag">DEMO PROJECT</span>
+      <span>Interactive Liturgical Calendar for SS Peter and Paul Catholic Church, Ugbolu (Catholic Diocese of Issele-Uku). Catholic feasts align with official dates; parish events are illustrative sample entries.</span>
+    </div>
+  </aside>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand">
+        <img src="assets/images/church-crest.svg" alt="Church Crest" class="brand-crest" width="52" height="52">
+        <div class="brand-text">
+          <span class="brand-title">SS Peter &amp; Paul</span>
+          <span class="brand-subtitle">Catholic Church, Ugbolu</span>
+          <span class="brand-location">Catholic Diocese of Issele-Uku</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="bulletin.html" class="nav-link">Weekly Bulletin</a></li>
+          <li><a href="calendar.html" class="nav-link active">Calendar</a></li>
+          <li><a href="masses-sacraments.html" class="nav-link">Mass &amp; Sacraments</a></li>
+          <li><a href="ministries.html" class="nav-link">Ministries</a></li>
+          <li><a href="announcements.html" class="nav-link">Announcements</a></li>
+          <li><a href="resources.html" class="nav-link">Resources</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="bulletin.html" class="btn btn-sm btn-gold">Latest Bulletin</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true">
+    <div class="drawer-backdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <img src="assets/images/church-crest.svg" alt="" width="36" height="36">
+          <div style="font-family:var(--font-serif); font-weight:700; color:var(--burgundy-900);">SS Peter &amp; Paul</div>
+        </div>
+        <button class="drawer-close" type="button">&times;</button>
+      </div>
+      <ul class="drawer-nav-list">
+        <li><a href="index.html" class="drawer-nav-link">Home <span>→</span></a></li>
+        <li><a href="about.html" class="drawer-nav-link">About Our Parish <span>→</span></a></li>
+        <li><a href="bulletin.html" class="drawer-nav-link">Weekly Bulletin <span>→</span></a></li>
+        <li><a href="calendar.html" class="drawer-nav-link active">Church Calendar <span>→</span></a></li>
+        <li><a href="masses-sacraments.html" class="drawer-nav-link">Mass &amp; Sacraments <span>→</span></a></li>
+        <li><a href="ministries.html" class="drawer-nav-link">Parish Ministries <span>→</span></a></li>
+        <li><a href="announcements.html" class="drawer-nav-link">Announcements <span>→</span></a></li>
+        <li><a href="resources.html" class="drawer-nav-link">Catholic Resources <span>→</span></a></li>
+        <li><a href="gallery.html" class="drawer-nav-link">Photo Gallery <span>→</span></a></li>
+        <li><a href="contact.html" class="drawer-nav-link">Contact &amp; Visit Us <span>→</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span aria-current="page">Church Calendar</span>
+        </nav>
+        <h1 class="page-hero-title">Church <span>Calendar</span></h1>
+        <p class="page-hero-desc">
+          Catholic Liturgical Celebrations, Solemnities, Mass Timetables, and Parish Events in Ugbolu.
+        </p>
+      </div>
+    </section>
+
+    <div class="container" style="padding-top: 3rem; padding-bottom: 5rem;">
+      <!-- Category Filter Pills -->
+      <nav class="filter-bar" aria-label="Filter events by category">
+        <button class="calendar-filter-pill filter-pill active" data-category="all" type="button">All Celebrations</button>
+        <button class="calendar-filter-pill filter-pill" data-category="solemnities" type="button">Solemnities &amp; Feasts</button>
+        <button class="calendar-filter-pill filter-pill" data-category="masses" type="button">Holy Masses &amp; Adoration</button>
+        <button class="calendar-filter-pill filter-pill" data-category="sacraments" type="button">Sacraments</button>
+        <button class="calendar-filter-pill filter-pill" data-category="parish" type="button">Parish Gatherings</button>
+      </nav>
+
+      <!-- Calendar Controls: Month Switcher & View Toggle -->
+      <div class="calendar-controls">
+        <div class="calendar-month-nav">
+          <button id="prevMonthBtn" class="btn btn-sm btn-outline-burgundy" type="button" aria-label="Previous month">
+            ◀ Previous
+          </button>
+          <div id="currentMonthLabel" class="current-month-label">November 2026</div>
+          <button id="nextMonthBtn" class="btn btn-sm btn-outline-burgundy" type="button" aria-label="Next month">
+            Next ▶
+          </button>
+          <button id="todayBtn" class="btn btn-sm btn-gold" type="button">
+            Today
+          </button>
+        </div>
+
+        <div class="view-toggle-group">
+          <button id="gridViewBtn" class="view-btn active" type="button">
+            📅 Monthly Grid
+          </button>
+          <button id="agendaViewBtn" class="view-btn" type="button">
+            📋 Agenda List
+          </button>
+        </div>
+      </div>
+
+      <!-- Calendar Display Area -->
+      <div id="calendarDisplayArea">
+        <!-- Rendered by js/calendar.js -->
+      </div>
+
+      <!-- Liturgical Colors Legend -->
+      <div class="card" style="margin-top: 2.5rem; padding: 1.5rem;">
+        <h3 style="font-size: 1.1rem; color:var(--burgundy-900); margin-bottom: 0.75rem;">Catholic Liturgical Vestment Colours</h3>
+        <div style="display:flex; gap:1.25rem; flex-wrap:wrap; font-size:0.85rem; color:var(--text-muted);">
+          <div style="display:flex; align-items:center; gap:0.4rem;">
+            <span class="badge badge-green">Green</span>
+            <span>Ordinary Time (Growth &amp; Hope)</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.4rem;">
+            <span class="badge badge-gold">White / Gold</span>
+            <span>Solemnities, Christmas, Easter, Christ the King (Joy &amp; Purity)</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.4rem;">
+            <span class="badge badge-purple">Violet / Purple</span>
+            <span>Advent &amp; Lent (Penance &amp; Expectancy)</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.4rem;">
+            <span class="badge badge-red">Red</span>
+            <span>Pentecost, Passion of Christ &amp; Martyrs (Holy Spirit &amp; Sacrifice)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Native Event Detail Dialog Modal (modern-web-guidance compliant) -->
+  <dialog id="eventModal" closedby="any" aria-labelledby="eventModalTitle">
+    <div class="modal-header">
+      <h3 id="eventModalTitle" class="modal-title">Celebration Details</h3>
+      <button id="closeEventModalBtn" class="modal-close-btn" type="button" aria-label="Close modal">&times;</button>
+    </div>
+    <div id="eventModalBody" class="modal-body">
+      <!-- Populated dynamically -->
+    </div>
+  </dialog>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-disclaimer">
+        ⚠️ <strong>DEMONSTRATION PORTAL:</strong> SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku, Delta State, Nigeria. Liturgical calendar and schedules are demonstration content.
+      </div>
+
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <img src="assets/images/church-crest.svg" alt="SS Peter and Paul Crest" width="56" height="56">
+            <div>
+              <div class="footer-brand-title">SS Peter &amp; Paul</div>
+              <div class="footer-brand-sub">Catholic Church, Ugbolu</div>
+            </div>
+          </div>
+          <p style="font-size:0.875rem; color:#CBD5E1;">
+            Catholic Diocese of Issele-Uku • Asaba Deanery, Delta State, Nigeria.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Parish Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="bulletin.html">Weekly Bulletins</a></li>
+            <li><a href="calendar.html">Church Calendar</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Parish Life</h4>
+          <ul class="footer-links">
+            <li><a href="masses-sacraments.html">Mass Schedules</a></li>
+            <li><a href="announcements.html">Parish Notices</a></li>
+            <li><a href="resources.html">Catholic Prayers</a></li>
+            <li><a href="contact.html">Visit Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Parish Office</h4>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>Along Ugbolu-Illah Road, Ugbolu, Delta State</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>💬</span>
+            <span><a href="contact.html" style="color:var(--gold-400);">Contact Parish Office</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 SS Peter and Paul Catholic Church, Ugbolu. Catholic Diocese of Issele-Uku.</div>
+        <div>Demonstration Parish Portal</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <script src="js/app.js"></script>
+  <script src="js/calendar.js"></script>
+</body>
+</html>

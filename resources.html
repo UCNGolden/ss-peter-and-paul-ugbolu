@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catholic Resources & Prayers | SS Peter and Paul Catholic Church, Ugbolu</title>
+  <meta name="description" content="Catholic prayer book, Holy Rosary mysteries, Divine Mercy Chaplet, Stations of the Cross, and liturgical seasons guide at SS Peter and Paul Catholic Church, Ugbolu.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+  <!-- Demo Banner -->
+  <aside class="demo-banner" role="complementary">
+    <div class="container demo-banner-content">
+      <span class="demo-tag">DEMO PROJECT</span>
+      <span>Catholic Resources and Devotional Prayers for SS Peter and Paul Catholic Church, Ugbolu (Catholic Diocese of Issele-Uku). Accurate Catholic doctrine and prayers.</span>
+    </div>
+  </aside>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand">
+        <img src="assets/images/church-crest.svg" alt="Church Crest" class="brand-crest" width="52" height="52">
+        <div class="brand-text">
+          <span class="brand-title">SS Peter &amp; Paul</span>
+          <span class="brand-subtitle">Catholic Church, Ugbolu</span>
+          <span class="brand-location">Catholic Diocese of Issele-Uku</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="bulletin.html" class="nav-link">Weekly Bulletin</a></li>
+          <li><a href="calendar.html" class="nav-link">Calendar</a></li>
+          <li><a href="masses-sacraments.html" class="nav-link">Mass &amp; Sacraments</a></li>
+          <li><a href="ministries.html" class="nav-link">Ministries</a></li>
+          <li><a href="announcements.html" class="nav-link">Announcements</a></li>
+          <li><a href="resources.html" class="nav-link active">Resources</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="bulletin.html" class="btn btn-sm btn-gold">Latest Bulletin</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true">
+    <div class="drawer-backdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <img src="assets/images/church-crest.svg" alt="" width="36" height="36">
+          <div style="font-family:var(--font-serif); font-weight:700; color:var(--burgundy-900);">SS Peter &amp; Paul</div>
+        </div>
+        <button class="drawer-close" type="button">&times;</button>
+      </div>
+      <ul class="drawer-nav-list">
+        <li><a href="index.html" class="drawer-nav-link">Home <span>→</span></a></li>
+        <li><a href="about.html" class="drawer-nav-link">About Our Parish <span>→</span></a></li>
+        <li><a href="bulletin.html" class="drawer-nav-link">Weekly Bulletin <span>→</span></a></li>
+        <li><a href="calendar.html" class="drawer-nav-link">Church Calendar <span>→</span></a></li>
+        <li><a href="masses-sacraments.html" class="drawer-nav-link">Mass &amp; Sacraments <span>→</span></a></li>
+        <li><a href="ministries.html" class="drawer-nav-link">Parish Ministries <span>→</span></a></li>
+        <li><a href="announcements.html" class="drawer-nav-link">Announcements <span>→</span></a></li>
+        <li><a href="resources.html" class="drawer-nav-link active">Catholic Resources <span>→</span></a></li>
+        <li><a href="gallery.html" class="drawer-nav-link">Photo Gallery <span>→</span></a></li>
+        <li><a href="contact.html" class="drawer-nav-link">Contact &amp; Visit Us <span>→</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span aria-current="page">Catholic Resources</span>
+        </nav>
+        <h1 class="page-hero-title">Catholic <span>Resources &amp; Prayers</span></h1>
+        <p class="page-hero-desc">
+          Treasury of Catholic Devotions, the Holy Rosary, Divine Mercy, Stations of the Cross, and Liturgical Seasons.
+        </p>
+      </div>
+    </section>
+
+    <div class="container" style="padding-top: 3rem; padding-bottom: 5rem;">
+      <!-- Tab Navigation -->
+      <nav class="resources-tabs-nav" aria-label="Catholic Resource Categories">
+        <button class="res-tab-btn active" data-target="panelPrayers" type="button">Basic Catholic Prayers</button>
+        <button class="res-tab-btn" data-target="panelRosary" type="button">The Holy Rosary</button>
+        <button class="res-tab-btn" data-target="panelDivineMercy" type="button">Divine Mercy Chaplet</button>
+        <button class="res-tab-btn" data-target="panelStations" type="button">Stations of the Cross</button>
+        <button class="res-tab-btn" data-target="panelConscience" type="button">Examination of Conscience</button>
+        <button class="res-tab-btn" data-target="panelSeasons" type="button">Liturgical Seasons</button>
+      </nav>
+
+      <!-- TAB PANEL 1: BASIC PRAYERS -->
+      <section id="panelPrayers" class="resource-tab-panel" style="display:block;">
+        <div style="margin-bottom:2rem;">
+          <h2 style="font-size:1.4rem; color:var(--burgundy-900); margin-bottom:0.35rem;">Daily Catholic Prayers</h2>
+          <p style="color:var(--text-muted); font-size:0.95rem;">
+            Traditional prayers of Holy Mother Church recited in English with classical Latin originals.
+          </p>
+        </div>
+        <div id="prayersContainer">
+          <!-- Populated by js/resources.js -->
+        </div>
+      </section>
+
+      <!-- TAB PANEL 2: THE HOLY ROSARY -->
+      <section id="panelRosary" class="resource-tab-panel" style="display:none;">
+        <div style="margin-bottom:2rem;">
+          <h2 style="font-size:1.4rem; color:var(--burgundy-900); margin-bottom:0.35rem;">The Holy Rosary of the Blessed Virgin Mary</h2>
+          <p style="color:var(--text-muted); font-size:0.95rem;">
+            Select a set of mysteries below to view the five decades with scriptural readings and spiritual fruits.
+          </p>
+        </div>
+
+        <div class="mysteries-pills-wrap">
+          <button class="mystery-select-btn filter-pill active" data-mystery="joyful" type="button">Joyful Mysteries (Mon &amp; Sat)</button>
+          <button class="mystery-select-btn filter-pill" data-mystery="luminous" type="button">Luminous Mysteries (Thu)</button>
+          <button class="mystery-select-btn filter-pill" data-mystery="sorrowful" type="button">Sorrowful Mysteries (Tue &amp; Fri)</button>
+          <button class="mystery-select-btn filter-pill" data-mystery="glorious" type="button">Glorious Mysteries (Wed &amp; Sun)</button>
+        </div>
+
+        <div id="mysteryDisplayContainer">
+          <!-- Rendered dynamically -->
+        </div>
+      </section>
+
+      <!-- TAB PANEL 3: DIVINE MERCY CHAPLET -->
+      <section id="panelDivineMercy" class="resource-tab-panel" style="display:none;">
+        <div class="card" style="padding:2.5rem; border-top:4px solid #DC2626;">
+          <h2 style="font-size:1.5rem; color:var(--burgundy-900); margin-bottom:0.5rem;">The Chaplet of the Divine Mercy</h2>
+          <p style="color:var(--gold-700); font-weight:700; margin-bottom:1.5rem;">
+            Given by Our Lord Jesus Christ to Saint Faustina Kowalska in 1935. Especially recited at the 3:00 PM Hour of Great Mercy.
+          </p>
+
+          <div style="background:var(--cream-100); border-left:4px solid var(--burgundy-700); padding:1.25rem; border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-bottom:2rem; font-size:0.95rem; line-height:1.7;">
+            <strong>"At three o'clock, implore My mercy, especially for sinners; and, if only for a brief moment, immerse yourself in My Passion... This is the hour of great mercy for the whole world."</strong> (Diary of St. Faustina, 1320)
+          </div>
+
+          <h3 style="font-size:1.15rem; color:var(--burgundy-800); margin-bottom:1rem;">How to Recite the Chaplet (Using Ordinary Rosary Beads)</h3>
+          <ol style="padding-left:1.5rem; font-size:0.95rem; color:var(--text-main); line-height:1.8; margin-bottom:2rem;">
+            <li>Make the <strong>Sign of the Cross</strong>.</li>
+            <li>Recite 1 <strong>Our Father</strong>, 1 <strong>Hail Mary</strong>, and <strong>The Apostles' Creed</strong>.</li>
+            <li>On the large bead before each decade, pray:<br>
+              <em style="color:var(--burgundy-800); font-weight:600;">"Eternal Father, I offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ, in atonement for our sins and those of the whole world."</em>
+            </li>
+            <li>On the 10 small beads of each decade, pray:<br>
+              <em style="color:var(--burgundy-800); font-weight:600;">"For the sake of His sorrowful Passion, have mercy on us and on the whole world."</em>
+            </li>
+            <li>After five decades, conclude by chanting three times:<br>
+              <strong style="color:var(--burgundy-900);">"Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world."</strong>
+            </li>
+            <li><strong>Closing Prayer:</strong><br>
+              "Eternal God, in whom mercy is endless and the treasury of compassion inexhaustible, look kindly upon us and increase Your mercy in us, that in difficult moments we might not despair nor become despondent, but with great confidence submit ourselves to Your holy will, which is Love and Mercy itself. Amen."
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- TAB PANEL 4: STATIONS OF THE CROSS -->
+      <section id="panelStations" class="resource-tab-panel" style="display:none;">
+        <div style="margin-bottom:2rem;">
+          <h2 style="font-size:1.4rem; color:var(--burgundy-900); margin-bottom:0.35rem;">The Stations of the Cross (Via Crucis)</h2>
+          <p style="color:var(--text-muted); font-size:0.95rem;">
+            Walk the sacred journey of Calvary with Our Lord Jesus Christ across the 14 traditional stations.
+          </p>
+        </div>
+        <div id="stationsContainer" class="stations-grid">
+          <!-- Populated by js/resources.js -->
+        </div>
+      </section>
+
+      <!-- TAB PANEL 5: EXAMINATION OF CONSCIENCE -->
+      <section id="panelConscience" class="resource-tab-panel" style="display:none;">
+        <div class="card" style="padding:2.5rem; border-top:4px solid var(--liturgical-purple);">
+          <h2 style="font-size:1.4rem; color:var(--burgundy-900); margin-bottom:0.5rem;">Examination of Conscience for Confession</h2>
+          <p style="color:var(--text-muted); margin-bottom:2rem;">
+            A prayerful guide based on the Ten Commandments and Precepts of the Church to prepare worthy confession.
+          </p>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:2rem;">
+            <div>
+              <h3 style="font-size:1.15rem; color:var(--burgundy-800); margin-bottom:0.75rem;">1. My Relationship with God</h3>
+              <ul style="padding-left:1.25rem; font-size:0.9rem; color:var(--text-muted); line-height:1.7;">
+                <li>Have I doubted, denied, or compromised my Catholic faith?</li>
+                <li>Have I engaged in idolatry, superstition, occult practices, or consulting fortune-tellers?</li>
+                <li>Have I taken the Holy Name of God in vain or used foul language?</li>
+                <li>Have I deliberately missed Sunday Mass or Holy Days of Obligation without grave medical reason?</li>
+                <li>Have I received Holy Communion while conscious of unconfessed mortal sin?</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 style="font-size:1.15rem; color:var(--burgundy-800); margin-bottom:0.75rem;">2. Charity Toward Family &amp; Neighbour</h3>
+              <ul style="padding-left:1.25rem; font-size:0.9rem; color:var(--text-muted); line-height:1.7;">
+                <li>Have I honoured, respected, and supported my parents and family elders?</li>
+                <li>Have I harboured hatred, malice, grudges, or refused to forgive others?</li>
+                <li>Have I engaged in physical violence, abortion, or encouraged any act against human life?</li>
+                <li>Have I committed sexual sins (fornication, adultery, pornography, or impure thoughts)?</li>
+                <li>Have I stolen, cheated in business transactions, taken bribes, or refused to pay just debts?</li>
+                <li>Have I told lies, slandered others, or destroyed someone's good name through gossip?</li>
+              </ul>
+            </div>
+          </div>
+
+          <div style="margin-top:2rem; background:var(--cream-100); padding:1.25rem; border-radius:var(--radius-sm);">
+            <strong style="color:var(--burgundy-900);">The Act of Contrition:</strong><br>
+            <p style="font-size:0.9rem; color:var(--text-main); margin-top:0.35rem; font-style:italic;">
+              "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of Thy just punishments, but most of all because they offend Thee, my God, Who art all-good and deserving of all my love. I firmly resolve, with the help of Thy grace, to sin no more, and to avoid the near occasions of sin. Amen."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB PANEL 6: LITURGICAL SEASONS -->
+      <section id="panelSeasons" class="resource-tab-panel" style="display:none;">
+        <div style="margin-bottom:2rem;">
+          <h2 style="font-size:1.4rem; color:var(--burgundy-900); margin-bottom:0.35rem;">The Catholic Liturgical Year &amp; Seasons</h2>
+          <p style="color:var(--text-muted); font-size:0.95rem;">
+            The Church's sacred calendar unfolding the entire mystery of Christ throughout the year.
+          </p>
+        </div>
+        <div id="seasonsContainer">
+          <!-- Populated by js/resources.js -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-disclaimer">
+        ⚠️ <strong>DEMONSTRATION PORTAL:</strong> SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku, Delta State, Nigeria.
+      </div>
+
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <img src="assets/images/church-crest.svg" alt="SS Peter and Paul Crest" width="56" height="56">
+            <div>
+              <div class="footer-brand-title">SS Peter &amp; Paul</div>
+              <div class="footer-brand-sub">Catholic Church, Ugbolu</div>
+            </div>
+          </div>
+          <p style="font-size:0.875rem; color:#CBD5E1;">
+            Catholic Diocese of Issele-Uku • Asaba Deanery, Delta State, Nigeria.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Parish Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="bulletin.html">Weekly Bulletins</a></li>
+            <li><a href="calendar.html">Church Calendar</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Catholic Resources</h4>
+          <ul class="footer-links">
+            <li><a href="resources.html">Basic Catholic Prayers</a></li>
+            <li><a href="resources.html">The Holy Rosary</a></li>
+            <li><a href="resources.html">Divine Mercy Chaplet</a></li>
+            <li><a href="resources.html">Stations of the Cross</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Parish Office</h4>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>Along Ugbolu-Illah Road, Ugbolu, Delta State</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>💬</span>
+            <span><a href="contact.html" style="color:var(--gold-400);">Contact Parish Office</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 SS Peter and Paul Catholic Church, Ugbolu. Catholic Diocese of Issele-Uku.</div>
+        <div>Demonstration Parish Portal</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <script src="js/app.js"></script>
+  <script src="js/resources.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1020" />
+      <stop offset="100%" stop-color="#1E070D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="500" rx="16" fill="url(#cBg)"/>
+  <circle cx="200" cy="180" r="140" fill="#FAF6EE" opacity="0.08"/>
+
+  <!-- Clerical Roman Cassock and Collar -->
+  <g transform="translate(200, 260)">
+    <!-- Shoulders & Cassock -->
+    <path d="M -130,240 L -90,70 L -40,30 L 40,30 L 90,70 L 130,240 Z" fill="#18181B" stroke="#D4AF37" stroke-width="1.5"/>
+    
+    <!-- Cassock Center Seam & Buttons -->
+    <line x1="0" y1="30" x2="0" y2="240" stroke="#27272A" stroke-width="3"/>
+    <circle cx="0" cy="55" r="3.5" fill="#3F3F46"/>
+    <circle cx="0" cy="80" r="3.5" fill="#3F3F46"/>
+    <circle cx="0" cy="105" r="3.5" fill="#3F3F46"/>
+    <circle cx="0" cy="130" r="3.5" fill="#3F3F46"/>
+    <circle cx="0" cy="155" r="3.5" fill="#3F3F46"/>
+    <circle cx="0" cy="180" r="3.5" fill="#3F3F46"/>
+
+    <!-- Roman Clerical Collar -->
+    <rect x="-35" y="15" width="70" height="18" fill="#18181B" rx="3"/>
+    <rect x="-12" y="15" width="24" height="18" fill="#FFFFFF"/>
+
+    <!-- Pectoral Cross or Liturgical Stole Accent -->
+    <path d="M -30,30 L -30,190 L -12,190 L -12,30 Z" fill="#6B1D2F" stroke="#D4AF37" stroke-width="1"/>
+    <path d="M 12,30 L 12,190 L 30,190 L 30,30 Z" fill="#6B1D2F" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="-30" y1="185" x2="-12" y2="185" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="12" y1="185" x2="30" y2="185" stroke="#D4AF37" stroke-width="2"/>
+
+    <!-- Head & Face Outline -->
+    <circle cx="0" cy="-60" r="50" fill="#ECCBB0"/>
+    <path d="M -45,-75 Q 0,-115 45,-75 Q 50,-40 45,-20 Q 0,0 -45,-20 Z" fill="#271B16"/>
+    <circle cx="0" cy="-60" r="42" fill="#E2B797"/>
+    <!-- Dignified Smile / Eyes -->
+    <circle cx="-16" cy="-62" r="3.5" fill="#271B16"/>
+    <circle cx="16" cy="-62" r="3.5" fill="#271B16"/>
+    <path d="M -12,-42 Q 0,-34 12,-42" stroke="#8D5B4C" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Name & Title Tag -->
+  <rect x="20" y="415" width="360" height="65" rx="8" fill="#110408" stroke="#D4AF37" stroke-width="1"/>
+  <text x="200" y="442" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" fill="#FFF2A3" text-anchor="middle">
+    Rev. Fr. Augustine Nwabuokei
+  </text>
+  <text x="200" y="462" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#CBD5E1" text-anchor="middle">
+    Assistant Priest & Youth Chaplain • Ordained 2020 (Demo)
+  </text>
+</svg>

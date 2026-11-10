@@ -1,0 +1,615 @@
+/* css/components.css
+   Reusable UI Components, Buttons, Badges, Modals, Forms
+   SS Peter and Paul Catholic Church, Ugbolu
+*/
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.btn-gold {
+  background: linear-gradient(180deg, #F6DC7D 0%, #D4AF37 50%, #B88900 100%);
+  color: #2A0912;
+  border-color: #9E7400;
+  box-shadow: 0 2px 6px rgba(184, 137, 0, 0.35);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(180deg, #FFF0A8 0%, #ECC94B 50%, #C59B27 100%);
+  color: #1C050B;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.45);
+  transform: translateY(-2px);
+}
+
+.btn-burgundy {
+  background: linear-gradient(180deg, #88253B 0%, #6B1D2F 50%, #4D0E1E 100%);
+  color: #FFFDF8;
+  border-color: #380814;
+  box-shadow: 0 2px 6px rgba(107, 29, 47, 0.3);
+}
+
+.btn-burgundy:hover {
+  background: linear-gradient(180deg, #A62F4A 0%, #88253B 50%, #581423 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(107, 29, 47, 0.45);
+  transform: translateY(-2px);
+}
+
+.btn-outline-gold {
+  background-color: transparent;
+  color: var(--gold-300);
+  border: 2px solid var(--gold-500);
+}
+
+.btn-outline-gold:hover {
+  background-color: var(--gold-500);
+  color: var(--burgundy-950);
+  transform: translateY(-2px);
+}
+
+.btn-outline-burgundy {
+  background-color: transparent;
+  color: var(--burgundy-700);
+  border: 2px solid var(--burgundy-700);
+}
+
+.btn-outline-burgundy:hover {
+  background-color: var(--burgundy-700);
+  color: #FFFDF8;
+  transform: translateY(-2px);
+}
+
+.btn-sm {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.8125rem;
+}
+
+.btn-lg {
+  padding: 0.95rem 2rem;
+  font-size: 1.05rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-icon {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+/* Badges & Pills */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+
+.badge-green {
+  background-color: #DCFCE7;
+  color: #14532D;
+  border: 1px solid #86EFAC;
+}
+
+.badge-purple {
+  background-color: #F3E8FF;
+  color: #581C87;
+  border: 1px solid #D8B4FE;
+}
+
+.badge-gold {
+  background-color: #FEF3C7;
+  color: #78350F;
+  border: 1px solid #FCD34D;
+}
+
+.badge-red {
+  background-color: #FEE2E2;
+  color: #991B1B;
+  border: 1px solid #FCA5A5;
+}
+
+.badge-rose {
+  background-color: #FCE7F3;
+  color: #9D174D;
+  border: 1px solid #F472B6;
+}
+
+.badge-demo {
+  background-color: #FEF2F2;
+  color: #B91C1C;
+  border: 1px dashed #EF4444;
+}
+
+/* Card Styling */
+.card {
+  background: var(--cream-50);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  border-color: var(--gold-500);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.card-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border-light);
+  background-color: var(--cream-100);
+}
+
+.card-body {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.card-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border-light);
+  background-color: var(--cream-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Mass Schedule Card */
+.mass-card {
+  border-top: 4px solid var(--burgundy-700);
+}
+
+.mass-card.highlight {
+  border-top-color: var(--gold-500);
+  background: linear-gradient(180deg, #FFFDF8 0%, #FAF3E6 100%);
+}
+
+.mass-day {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--burgundy-800);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mass-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed var(--border-light);
+}
+
+.mass-item:last-child {
+  border-bottom: none;
+}
+
+.mass-time {
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--burgundy-700);
+  min-width: 80px;
+}
+
+.mass-desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+/* Bulletin Preview Card */
+.bulletin-preview-card {
+  background: var(--cream-50);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.75rem;
+  position: relative;
+  box-shadow: var(--shadow-md);
+}
+
+.bulletin-header-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.bulletin-readings-box {
+  background-color: var(--cream-100);
+  border-left: 3px solid var(--gold-500);
+  padding: 1rem 1.25rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin: 1.25rem 0;
+  font-size: 0.875rem;
+}
+
+/* Announcement Card */
+.announcement-card {
+  border-left: 4px solid var(--burgundy-600);
+}
+
+.announcement-card.urgent {
+  border-left-color: #DC2626;
+}
+
+.announcement-card.banns {
+  border-left-color: var(--gold-500);
+}
+
+.announcement-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.announcement-title {
+  font-size: 1.15rem;
+  color: var(--burgundy-900);
+  line-height: 1.3;
+}
+
+.announcement-date {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.announcement-content {
+  font-size: 0.925rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: 1rem;
+}
+
+/* Ministry / Society Card */
+.ministry-card {
+  border-top: 4px solid var(--gold-500);
+}
+
+.ministry-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ministry-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-sm);
+  background: var(--burgundy-100);
+  color: var(--burgundy-700);
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.ministry-title {
+  font-size: 1.2rem;
+  color: var(--burgundy-900);
+  line-height: 1.2;
+}
+
+.ministry-motto {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--gold-700);
+  margin-top: 0.2rem;
+}
+
+.ministry-meta {
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--border-light);
+  color: var(--text-muted);
+}
+
+/* Clergy Card */
+.clergy-card {
+  text-align: center;
+  border-top: 4px solid var(--burgundy-700);
+}
+
+.clergy-avatar-wrap {
+  width: 140px;
+  height: 175px;
+  margin: 1.5rem auto 1rem;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 2px solid var(--gold-500);
+}
+
+.clergy-name {
+  font-size: 1.25rem;
+  color: var(--burgundy-900);
+  margin-bottom: 0.25rem;
+}
+
+.clergy-role {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--gold-700);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+/* Native Modal Dialog (following modern-web-guidance) */
+dialog:modal {
+  overscroll-behavior: contain; /* stops scroll gestures chaining */
+  border: none;
+  padding: 0;
+  border-radius: var(--radius-lg);
+  background: var(--cream-50);
+  box-shadow: 0 25px 60px -15px rgba(28, 5, 11, 0.45);
+  max-width: min(92vw, 760px);
+  width: 100%;
+  margin: auto;
+  color: var(--text-main);
+  animation: modalFadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+dialog::backdrop {
+  overflow: hidden; /* ::backdrop is not a scroll container by default */
+  overscroll-behavior: contain;
+  background: rgba(24, 4, 9, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.modal-header {
+  padding: 1.5rem 1.75rem;
+  background-color: var(--burgundy-900);
+  color: #FFFDF8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--gold-500);
+}
+
+.modal-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--gold-300);
+  margin: 0;
+}
+
+.modal-close-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  transition: all var(--transition-fast);
+}
+
+.modal-close-btn:hover {
+  background: var(--gold-500);
+  color: var(--burgundy-950);
+}
+
+.modal-body {
+  padding: 1.75rem;
+  max-height: 70vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.modal-footer {
+  padding: 1.25rem 1.75rem;
+  background-color: var(--cream-100);
+  border-top: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+/* Lightbox Dialog */
+dialog.lightbox-modal {
+  max-width: min(94vw, 1050px);
+  background: #110307;
+  color: #FFFDF8;
+  border: 1px solid var(--gold-600);
+}
+
+.lightbox-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.lightbox-image-wrap {
+  width: 100%;
+  max-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: #000000;
+}
+
+.lightbox-image-wrap img {
+  max-height: 65vh;
+  object-fit: contain;
+}
+
+.lightbox-caption {
+  width: 100%;
+  padding: 1rem 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(212, 175, 55, 0.3);
+  margin-top: 1rem;
+}
+
+/* Forms & Inputs */
+.form-group {
+  margin-bottom: 1.25rem;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--burgundy-900);
+  margin-bottom: 0.4rem;
+}
+
+.form-label .required {
+  color: #DC2626;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1.5px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background-color: #FFFFFF;
+  color: var(--text-main);
+  transition: all var(--transition-fast);
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--burgundy-700);
+  box-shadow: 0 0 0 3px rgba(107, 29, 47, 0.15);
+}
+
+.form-control.is-invalid {
+  border-color: #DC2626;
+  background-color: #FFF5F5;
+}
+
+.form-error {
+  font-size: 0.775rem;
+  color: #DC2626;
+  margin-top: 0.35rem;
+  display: none;
+}
+
+.form-control.is-invalid + .form-error {
+  display: block;
+}
+
+/* Category Filter Tabs & Pills */
+.filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.filter-pill {
+  padding: 0.5rem 1.15rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+  background-color: var(--cream-200);
+  color: var(--burgundy-900);
+  border: 1px solid var(--border-light);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.filter-pill:hover {
+  background-color: var(--burgundy-100);
+  color: var(--burgundy-700);
+  border-color: var(--burgundy-500);
+}
+
+.filter-pill.active {
+  background-color: var(--burgundy-700);
+  color: #FFFDF8;
+  border-color: var(--burgundy-700);
+  box-shadow: 0 2px 8px rgba(107, 29, 47, 0.25);
+}
+
+/* Toast Message */
+.toast-container {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 1100;
+  pointer-events: none;
+}
+
+.toast {
+  background-color: var(--burgundy-900);
+  color: #FFFDF8;
+  border-left: 4px solid var(--gold-500);
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-xl);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all var(--transition-normal);
+  pointer-events: auto;
+  max-width: 400px;
+}
+
+.toast.is-show {
+  opacity: 1;
+  transform: translateY(0);
+}

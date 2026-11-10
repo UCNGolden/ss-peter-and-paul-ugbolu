@@ -1,0 +1,52 @@
+{
+  "diocesanAffiliation": {
+    "diocese": "Catholic Diocese of Issele-Uku",
+    "see": "St. Paul's Cathedral, Issele-Uku, Delta State, Nigeria",
+    "bishop": "Most Rev. Dr. Michael Odogwu Elue",
+    "bishopTitle": "Catholic Bishop of Issele-Uku",
+    "deanery": "Asaba Deanery",
+    "dean": "Very Rev. Fr. Dean of Asaba Deanery"
+  },
+  "clergy": [
+    {
+      "id": "priest-01",
+      "name": "Rev. Fr. Emmanuel Okonkwo",
+      "role": "Parish Priest",
+      "isDemo": true,
+      "bio": "Ordained to the Catholic priesthood for the Catholic Diocese of Issele-Uku. He possesses deep pastoral zeal for liturgical renewal, youth development, catechetical formation, and grassroots community evangelization in Ugbolu. He holds licentiate degrees in Pastoral Theology and Sacred Scripture.",
+      "ordinationYear": "2012",
+      "duties": "Overall pastoral shepherding, sacramental administration, Parish Pastoral Council headship, and spiritual father to all parishioners.",
+      "officeHours": "Tuesdays & Thursdays, 9:00 AM - 1:00 PM (By appointment)"
+    },
+    {
+      "id": "priest-02",
+      "name": "Rev. Fr. Augustine Nwabuokei",
+      "role": "Assistant Parish Priest & Youth Chaplain",
+      "isDemo": true,
+      "bio": "Ordained for the Catholic Diocese of Issele-Uku, Fr. Augustine oversees youth apostolates, altar servers, Holy Childhood Association (HCA), and liturgical music ministry. He is passionate about faith formation, digital evangelization, and sports ministry.",
+      "ordinationYear": "2020",
+      "duties": "Chaplain to CYON, Altar Servers, and HCA; celebration of Daily Masses; hospital and prison visitation apostolate.",
+      "officeHours": "Wednesdays & Fridays, 10:00 AM - 2:00 PM"
+    }
+  ],
+  "pastoralStaff": [
+    {
+      "name": "Bro. Dominic Osagie",
+      "role": "Head Catechist",
+      "isDemo": true,
+      "description": "Directs the parish catechetical school, infant baptism preparation, RCIA, and sacramental registers."
+    },
+    {
+      "name": "Sir (Engr.) Patrick Elumelu, KSM",
+      "role": "Vice Chairman, Parish Pastoral Council (PPC)",
+      "isDemo": true,
+      "description": "Liaison between the lay faithful, pious societies, and the parish clergy; coordinates major church developments."
+    },
+    {
+      "name": "Lady Beatrice Nwanze",
+      "role": "Secretary, Parish Pastoral Council (PPC)",
+      "isDemo": true,
+      "description": "Oversees parish administrative documentation, minutes, and communication with diocesan secretariats."
+    }
+  ]
+}

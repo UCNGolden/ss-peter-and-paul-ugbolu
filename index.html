@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SS Peter and Paul Catholic Church, Ugbolu | Catholic Diocese of Issele-Uku</title>
+  <meta name="description" content="Official parish portal for SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku, Delta State, Nigeria. Mass schedules, weekly bulletins, liturgical calendar, sacraments, and parish announcements.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+  <!-- Demonstration Content Disclaimer Banner -->
+  <aside class="demo-banner" role="complementary" aria-label="Demonstration Notice">
+    <div class="container demo-banner-content">
+      <span class="demo-tag">DEMO PROJECT</span>
+      <span>This is a demonstration parish portal for <strong>SS Peter and Paul Catholic Church, Ugbolu</strong> (Catholic Diocese of Issele-Uku, Delta State). Sample schedules, names, and bulletins are illustrative.</span>
+    </div>
+  </aside>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand" aria-label="SS Peter and Paul Catholic Church Ugbolu Home">
+        <img src="assets/images/church-crest.svg" alt="SS Peter & Paul Catholic Church Crest" class="brand-crest" width="52" height="52">
+        <div class="brand-text">
+          <span class="brand-title">SS Peter &amp; Paul</span>
+          <span class="brand-subtitle">Catholic Church, Ugbolu</span>
+          <span class="brand-location">Catholic Diocese of Issele-Uku</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="bulletin.html" class="nav-link">Weekly Bulletin</a></li>
+          <li><a href="calendar.html" class="nav-link">Calendar</a></li>
+          <li><a href="masses-sacraments.html" class="nav-link">Mass &amp; Sacraments</a></li>
+          <li><a href="ministries.html" class="nav-link">Ministries</a></li>
+          <li><a href="announcements.html" class="nav-link">Announcements</a></li>
+          <li><a href="resources.html" class="nav-link">Resources</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="bulletin.html" class="btn btn-sm btn-gold">Latest Bulletin</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+    <div class="drawer-backdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <img src="assets/images/church-crest.svg" alt="" width="36" height="36">
+          <div>
+            <div style="font-family:var(--font-serif); font-weight:700; color:var(--burgundy-900); font-size:0.95rem;">SS Peter &amp; Paul</div>
+            <div style="font-size:0.7rem; color:var(--gold-700);">Ugbolu, Issele-Uku Diocese</div>
+          </div>
+        </div>
+        <button class="drawer-close" type="button" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="drawer-nav-list">
+        <li><a href="index.html" class="drawer-nav-link active">Home <span>→</span></a></li>
+        <li><a href="about.html" class="drawer-nav-link">About Our Parish <span>→</span></a></li>
+        <li><a href="bulletin.html" class="drawer-nav-link">Weekly Bulletin <span>→</span></a></li>
+        <li><a href="calendar.html" class="drawer-nav-link">Church Calendar <span>→</span></a></li>
+        <li><a href="masses-sacraments.html" class="drawer-nav-link">Mass &amp; Sacraments <span>→</span></a></li>
+        <li><a href="ministries.html" class="drawer-nav-link">Parish Ministries <span>→</span></a></li>
+        <li><a href="announcements.html" class="drawer-nav-link">Announcements <span>→</span></a></li>
+        <li><a href="resources.html" class="drawer-nav-link">Catholic Resources <span>→</span></a></li>
+        <li><a href="gallery.html" class="drawer-nav-link">Photo Gallery <span>→</span></a></li>
+        <li><a href="contact.html" class="drawer-nav-link">Contact &amp; Visit Us <span>→</span></a></li>
+      </ul>
+      <div class="drawer-footer">
+        <a href="bulletin.html" class="btn btn-gold btn-block" style="margin-bottom:0.75rem;">Read This Week's Bulletin</a>
+        <a href="contact.html" class="btn btn-outline-burgundy btn-block">Plan Your Visit</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Welcome to SS Peter and Paul Catholic Church">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-pill">
+          <span>✝ Catholic Diocese of Issele-Uku, Delta State</span>
+        </div>
+
+        <h1 class="hero-title">
+          SS Peter &amp; Paul Catholic Church
+          <span>Ugbolu, Delta State, Nigeria</span>
+        </h1>
+
+        <p class="hero-subtitle">Growing Together in Faith, Hope and Love.</p>
+
+        <blockquote class="hero-verse">
+          "And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it."
+          <cite>— Matthew 16:18</cite>
+        </blockquote>
+
+        <div class="hero-actions">
+          <a href="bulletin.html" class="btn btn-gold btn-lg">
+            📜 Read This Week's Bulletin
+          </a>
+          <a href="calendar.html" class="btn btn-outline-gold btn-lg">
+            📅 View Church Calendar
+          </a>
+          <a href="contact.html" class="btn btn-outline-gold btn-lg">
+            📍 Plan Your Visit
+          </a>
+        </div>
+
+        <!-- Quick Mass Schedule Highlights Strip -->
+        <div class="hero-highlights">
+          <div class="hero-stat-item">
+            <div class="hero-stat-icon">✝</div>
+            <div class="hero-stat-text">
+              <h4>Sunday Masses</h4>
+              <p>6:30 AM (Dawn), 8:30 AM (High Mass), 10:30 AM (Youth)</p>
+            </div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-icon">🌅</div>
+            <div class="hero-stat-text">
+              <h4>Daily Morning Mass</h4>
+              <p>Monday – Friday 6:00 AM; Saturday 6:30 AM</p>
+            </div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-icon">✨</div>
+            <div class="hero-stat-text">
+              <h4>Adoration &amp; Confessions</h4>
+              <p>Thursdays 5:00 PM; Saturdays 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome Message Section -->
+    <section class="welcome-section">
+      <div class="container welcome-grid">
+        <div class="welcome-text">
+          <span class="section-label">A Loving Community of Faith</span>
+          <h2 class="section-title">Welcome to Our Parish Family</h2>
+          <p class="section-subtitle">
+            Welcome to SS Peter and Paul Catholic Church, Ugbolu. We are a community of faith, united in Christ and committed to worship, fellowship, service and the teachings of the Catholic Church. Whether you are a parishioner or visiting for the first time, you are welcome to worship and grow with us.
+          </p>
+          <p style="color:var(--text-muted); line-height:1.7; margin-bottom:1.5rem;">
+            Rooted in the apostolic traditions of Saints Peter and Paul, our parish thrives under the pastoral care of the Catholic Diocese of Issele-Uku, led by our Chief Shepherd, Most Rev. Dr. Michael Odogwu Elue. We welcome all families, youths, students, and visitors residing in Ugbolu and the wider Asaba capital territory to share in the richness of the Sacraments.
+          </p>
+          <div style="display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap;">
+            <a href="about.html" class="btn btn-burgundy">About Our Parish &amp; Clergy</a>
+            <a href="masses-sacraments.html" class="btn btn-outline-burgundy">Sacramental Guide</a>
+          </div>
+        </div>
+
+        <div class="welcome-imagery">
+          <div class="welcome-image-card">
+            <img src="assets/images/saints-peter-paul.svg" alt="Saints Peter and Paul Illustration" width="600" height="380">
+          </div>
+          <div class="welcome-badge-float">
+            <h5>Patronal Feast Day</h5>
+            <p>Solemnity of Saints Peter and Paul, Apostles — Celebrated on June 29th each year.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prominent Mass Schedule Section -->
+    <section class="mass-highlight-section">
+      <div class="container">
+        <div style="text-align:center; max-width:700px; margin-inline:auto;">
+          <span class="section-label">Liturgy &amp; Worship</span>
+          <h2 class="section-title">Parish Mass Schedules</h2>
+          <p style="color:var(--text-muted);">
+            Join us in the celebration of the Holy Sacrifice of the Mass and the Sacraments. All times listed are local Delta State (West Africa Time).
+          </p>
+        </div>
+
+        <div class="schedule-cards-grid">
+          <!-- Sunday Masses Card -->
+          <div class="card mass-card highlight">
+            <div class="card-body">
+              <div class="mass-day">
+                <span>Sunday Masses</span>
+                <span class="badge badge-gold">The Lord's Day</span>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">6:30 AM</div>
+                <div class="mass-desc"><strong>Early Dawn Mass</strong><br>English and Igbo liturgical hymns.</div>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">8:30 AM</div>
+                <div class="mass-desc"><strong>Parish High Mass</strong><br>Solemn ministration with St. Cecilia Choir.</div>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">10:30 AM</div>
+                <div class="mass-desc"><strong>Youth &amp; Children Mass</strong><br>Vibrant liturgical worship with CYON and HCA.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weekday Masses Card -->
+          <div class="card mass-card">
+            <div class="card-body">
+              <div class="mass-day">
+                <span>Weekday Masses</span>
+                <span class="badge badge-green">Daily Grace</span>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">6:00 AM</div>
+                <div class="mass-desc"><strong>Monday to Friday Morning Mass</strong><br>Sanctify the start of each working day.</div>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">6:00 PM</div>
+                <div class="mass-desc"><strong>Wednesday &amp; Friday Evening Mass</strong><br>Followed by novenas and society devotions.</div>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">6:30 AM</div>
+                <div class="mass-desc"><strong>Saturday Our Lady's Mass</strong><br>Marian Mass and Rosary procession.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Confessions & Devotions Card -->
+          <div class="card mass-card">
+            <div class="card-body">
+              <div class="mass-day">
+                <span>Confessions &amp; Adoration</span>
+                <span class="badge badge-purple">Healing</span>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">5:00 PM</div>
+                <div class="mass-desc"><strong>Saturday Confessions</strong><br>Reconciliation in the confessional until 6:00 PM.</div>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">5:00 PM</div>
+                <div class="mass-desc"><strong>Thursday Eucharistic Adoration</strong><br>Holy Hour and Benediction of the Blessed Sacrament.</div>
+              </div>
+              <div class="mass-item">
+                <div class="mass-time">On Request</div>
+                <div class="mass-desc"><strong>Sick Calls &amp; Viaticum</strong><br>Contact the parish office for homebound communion.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+          <a href="masses-sacraments.html" class="btn btn-burgundy">Explore The Seven Sacraments</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Weekly Bulletin Preview Section -->
+    <section class="bulletin-feature-section">
+      <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1.5rem; margin-bottom:2.5rem;">
+          <div>
+            <span class="section-label">Digital Parish Publication</span>
+            <h2 class="section-title">This Week's Parish Bulletin</h2>
+            <p style="color:var(--gold-200); max-width:620px;">
+              Stay spiritually nourished and informed with our digital weekly bulletin containing the Sunday Lectionary readings, pastoral reflection, weekly intentions, and community notices.
+            </p>
+          </div>
+          <div>
+            <a href="bulletin.html" class="btn btn-gold">
+              📖 View Full Bulletin &amp; Archive
+            </a>
+          </div>
+        </div>
+
+        <!-- Featured Bulletin Card Preview -->
+        <div class="bulletin-preview-card">
+          <div class="bulletin-header-meta">
+            <div>
+              <span class="badge badge-purple">Second Sunday of Advent (Year C)</span>
+              <span class="badge badge-demo">Sample Bulletin Data</span>
+            </div>
+            <div style="font-size:0.85rem; color:var(--text-muted); font-weight:700;">
+              Issue: Vol. 15 / No. 02 • Sunday, 6th December 2026
+            </div>
+          </div>
+
+          <h3 style="font-size:1.35rem; color:var(--burgundy-900); margin-bottom:0.5rem;">
+            "Leveling the Mountains of Pride and Filling the Valleys of Despair"
+          </h3>
+          <p style="font-size:0.85rem; color:var(--gold-700); font-weight:700; text-transform:uppercase; margin-bottom:1rem;">
+            Pastoral Reflection by Rev. Fr. Emmanuel Okonkwo (Parish Priest)
+          </p>
+
+          <p style="font-size:0.95rem; color:var(--text-muted); line-height:1.6; margin-bottom:1.25rem;">
+            "On this Second Sunday of Advent, the dramatic voice of St. John the Baptist echoes from the Judean wilderness: 'Prepare the way of the Lord, make straight his paths!' What are the spiritual mountains and valleys in our lives today? The mountains are our pride, our grudges, and our self-righteousness. Advent demands sincere spiritual bulldozing so that the King of Glory may find a smooth highway into our hearts..."
+          </p>
+
+          <div class="bulletin-readings-box">
+            <strong style="color:var(--burgundy-800);">Liturgical Scripture Readings of the Day:</strong><br>
+            <span>• 1st Reading: Baruch 5:1-9</span> &nbsp;|&nbsp;
+            <span>• Responsorial Psalm: Psalm 125 (126)</span> &nbsp;|&nbsp;
+            <span>• 2nd Reading: Philippians 1:4-6, 8-11</span> &nbsp;|&nbsp;
+            <span>• Holy Gospel: Luke 3:1-6</span>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-top:1.5rem; border-top:1px solid var(--border-light); padding-top:1.25rem;">
+            <div style="font-size:0.85rem; color:var(--text-muted);">
+              Includes: 4 Mass Intentions, 5 Announcements, Society Updates &amp; Reminders.
+            </div>
+            <div style="display:flex; gap:0.75rem;">
+              <a href="bulletin.html?issue=bulletin-2026-12-06" class="btn btn-sm btn-burgundy">Read Complete Bulletin</a>
+              <a href="bulletin.html" class="btn btn-sm btn-outline-burgundy">Browse Past Bulletins</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Liturgical Celebrations & Events Preview -->
+    <section style="padding: 5rem 0; background-color: var(--cream-100);">
+      <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1.5rem; margin-bottom:2.5rem;">
+          <div>
+            <span class="section-label">Liturgical Seasons &amp; Parish Life</span>
+            <h2 class="section-title">Upcoming Celebrations</h2>
+            <p style="color:var(--text-muted);">
+              Key solemnities, holy days of obligation, and parish gatherings at SS Peter and Paul, Ugbolu.
+            </p>
+          </div>
+          <div>
+            <a href="calendar.html" class="btn btn-outline-burgundy">
+              📅 Open Interactive Calendar
+            </a>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1.5rem;">
+          <!-- Event 1 -->
+          <div class="card" style="padding:1.5rem; border-top:4px solid var(--gold-500);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+              <span class="badge badge-gold">Solemnity</span>
+              <span style="font-size:0.8rem; color:var(--text-light); font-weight:700;">8th December 2026</span>
+            </div>
+            <h3 style="font-size:1.15rem; color:var(--burgundy-900); margin-bottom:0.35rem;">
+              Immaculate Conception of the B.V.M.
+            </h3>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+              Principal Patroness of Nigeria. Holy Day of Obligation. Masses at 6:00 AM and 6:00 PM followed by Marian consecration.
+            </p>
+            <div style="font-size:0.8rem; color:var(--gold-700); font-weight:700;">
+              ⏰ 6:00 AM &amp; 6:00 PM • Main Sanctuary
+            </div>
+          </div>
+
+          <!-- Event 2 -->
+          <div class="card" style="padding:1.5rem; border-top:4px solid var(--liturgical-purple);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+              <span class="badge badge-purple">Penitential</span>
+              <span style="font-size:0.8rem; color:var(--text-light); font-weight:700;">17th December 2026</span>
+            </div>
+            <h3 style="font-size:1.15rem; color:var(--burgundy-900); margin-bottom:0.35rem;">
+              Parish Advent Penitential Service
+            </h3>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+              General confession with visiting confessors from the Asaba Deanery to prepare hearts for the Nativity of Christ.
+            </p>
+            <div style="font-size:0.8rem; color:var(--gold-700); font-weight:700;">
+              ⏰ 4:00 PM - 7:30 PM • Main Sanctuary
+            </div>
+          </div>
+
+          <!-- Event 3 -->
+          <div class="card" style="padding:1.5rem; border-top:4px solid var(--gold-500);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+              <span class="badge badge-gold">Christmas</span>
+              <span style="font-size:0.8rem; color:var(--text-light); font-weight:700;">24th - 25th Dec 2026</span>
+            </div>
+            <h3 style="font-size:1.15rem; color:var(--burgundy-900); margin-bottom:0.35rem;">
+              Solemnity of the Nativity of the Lord
+            </h3>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+              Christmas Eve Carol (8:30 PM) &amp; Midnight Vigil (9:30 PM). Christmas Day Masses at 6:30 AM &amp; 8:30 AM.
+            </p>
+            <div style="font-size:0.8rem; color:var(--gold-700); font-weight:700;">
+              ⏰ Vigil 9:30 PM • Christmas Day 6:30 &amp; 8:30 AM
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Parish Announcements Preview -->
+    <section class="announcements-preview-section">
+      <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1.5rem; margin-bottom:2.5rem;">
+          <div>
+            <span class="section-label">Parish Communications</span>
+            <h2 class="section-title">Latest Announcements</h2>
+            <p style="color:var(--text-muted);">
+              Updates, wedding banns, sacramental registrations, and society activities in Ugbolu.
+            </p>
+          </div>
+          <div>
+            <a href="announcements.html" class="btn btn-burgundy">
+              View All Notices
+            </a>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.5rem;">
+          <!-- Banns card -->
+          <div class="card announcement-card banns">
+            <div class="card-body">
+              <div class="announcement-header">
+                <span class="badge badge-gold">Wedding Banns</span>
+                <span class="announcement-date">29 Nov 2026</span>
+              </div>
+              <h3 class="announcement-title">Brother Emeka Osakwe &amp; Sister Blessing Umeh</h3>
+              <p class="announcement-content">
+                Third and final publication of the Banns of Marriage. The Holy Matrimony is scheduled for Saturday, 12th December 2026 at 10:00 AM at SS Peter and Paul Church, Ugbolu.
+              </p>
+              <a href="announcements.html" style="font-weight:700; font-size:0.85rem; color:var(--burgundy-700);">Read Full Details →</a>
+            </div>
+          </div>
+
+          <!-- Charity card -->
+          <div class="card announcement-card">
+            <div class="card-body">
+              <div class="announcement-header">
+                <span class="badge badge-purple">Charity &amp; Welfare</span>
+                <span class="announcement-date">20 Nov 2026</span>
+              </div>
+              <h3 class="announcement-title">St. Vincent de Paul Christmas Food Drive</h3>
+              <p class="announcement-content">
+                Appeal for yams, rice, vegetable oil, and provisions to assist 75 indigent households and elderly community members in Ugbolu for the Christmas season.
+              </p>
+              <a href="announcements.html" style="font-weight:700; font-size:0.85rem; color:var(--burgundy-700);">Read Full Details →</a>
+            </div>
+          </div>
+
+          <!-- Youth convention -->
+          <div class="card announcement-card">
+            <div class="card-body">
+              <div class="announcement-header">
+                <span class="badge badge-green">Diocesan Youth</span>
+                <span class="announcement-date">18 Nov 2026</span>
+              </div>
+              <h3 class="announcement-title">Issele-Uku Diocesan Youth Convention</h3>
+              <p class="announcement-content">
+                Registration for the annual youth gathering holding at St. Paul's Cathedral, Issele-Uku. Parish CYON delegates should complete forms with the youth chaplain.
+              </p>
+              <a href="announcements.html" style="font-weight:700; font-size:0.85rem; color:var(--burgundy-700);">Read Full Details →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Links Grid to Catholic Ministries & Resources -->
+    <section class="quick-links-section">
+      <div class="container">
+        <div style="text-align:center; max-width:650px; margin-inline:auto;">
+          <span class="section-label">Grow in Faith</span>
+          <h2 class="section-title">Explore Our Parish Life</h2>
+          <p style="color:var(--text-muted);">
+            Discover the wealth of prayer, fellowship, and active service available in our Catholic faith tradition.
+          </p>
+        </div>
+
+        <div class="quick-links-grid">
+          <a href="masses-sacraments.html" class="quick-link-card">
+            <div class="quick-link-icon">✝</div>
+            <h3 class="quick-link-title">The Seven Sacraments</h3>
+            <p class="quick-link-desc">Guidelines, requirements, and class schedules for Baptism, Holy Communion, Confirmation, and Marriage.</p>
+          </a>
+
+          <a href="ministries.html" class="quick-link-card">
+            <div class="quick-link-icon">👥</div>
+            <h3 class="quick-link-title">Ministries &amp; Societies</h3>
+            <p class="quick-link-desc">CMO, CWO, CYON, Altar Servers, St. Cecilia Choir, Legion of Mary, and other apostolates.</p>
+          </a>
+
+          <a href="resources.html" class="quick-link-card">
+            <div class="quick-link-icon">📖</div>
+            <h3 class="quick-link-title">Catholic Prayer Book</h3>
+            <p class="quick-link-desc">Daily prayers, the Holy Rosary with scriptural mysteries, Divine Mercy Chaplet, and Stations of the Cross.</p>
+          </a>
+
+          <a href="gallery.html" class="quick-link-card">
+            <div class="quick-link-icon">🖼️</div>
+            <h3 class="quick-link-title">Parish Photo Gallery</h3>
+            <p class="quick-link-desc">View images of church celebrations, liturgical processions, altar servers, choir, and community gatherings.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-disclaimer">
+        ⚠️ <strong>DEMONSTRATION PORTAL DISCLAIMER:</strong> This website is a demonstration project created for <strong>SS Peter and Paul Catholic Church, Ugbolu</strong>, under the <strong>Catholic Diocese of Issele-Uku</strong>, Delta State, Nigeria. All bulletin issues, clergy schedules, and notices represent sample demonstration data.
+      </div>
+
+      <div class="footer-top">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <img src="assets/images/church-crest.svg" alt="SS Peter and Paul Crest" width="56" height="56">
+            <div>
+              <div class="footer-brand-title">SS Peter &amp; Paul</div>
+              <div class="footer-brand-sub">Catholic Church, Ugbolu</div>
+            </div>
+          </div>
+          <p style="font-size:0.875rem; color:#CBD5E1; line-height:1.6;">
+            A vibrant Catholic parish dedicated to the proclamation of the Gospel, reverent liturgical worship, sacramental life, and charitable service in Ugbolu community, Delta State, Nigeria.
+          </p>
+          <div style="font-size:0.8rem; color:var(--gold-300);">
+            <strong>Diocese:</strong> Catholic Diocese of Issele-Uku<br>
+            <strong>Bishop:</strong> Most Rev. Dr. Michael Odogwu Elue<br>
+            <strong>Deanery:</strong> Asaba Deanery
+          </div>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Parish Home</a></li>
+            <li><a href="about.html">About Our Parish</a></li>
+            <li><a href="bulletin.html">Weekly Bulletins</a></li>
+            <li><a href="calendar.html">Church Calendar</a></li>
+            <li><a href="masses-sacraments.html">Masses &amp; Sacraments</a></li>
+            <li><a href="ministries.html">Ministries &amp; Societies</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources & Notices -->
+        <div>
+          <h4 class="footer-col-title">Parish Life</h4>
+          <ul class="footer-links">
+            <li><a href="announcements.html">Parish Notices</a></li>
+            <li><a href="resources.html">Catholic Prayers</a></li>
+            <li><a href="resources.html">The Holy Rosary</a></li>
+            <li><a href="resources.html">Divine Mercy Chaplet</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Plan Your Visit</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Mass Times -->
+        <div>
+          <h4 class="footer-col-title">Contact &amp; Location</h4>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>SS Peter &amp; Paul Catholic Church, Along Ugbolu-Illah Road, Ugbolu, Delta State, Nigeria</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>⏰</span>
+            <span>Sunday Masses: 6:30 AM, 8:30 AM, 10:30 AM</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>💬</span>
+            <span>WhatsApp Enquiry: <a href="https://wa.me/2348000000000" target="_blank" rel="noopener noreferrer" style="color:var(--gold-400);">Chat with Secretariat (Demo)</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 SS Peter and Paul Catholic Church, Ugbolu. Catholic Diocese of Issele-Uku. All Rights Reserved.
+        </div>
+        <div>
+          Demonstration Parish Website • Designed with reverence, elegance, and modern web standards.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <!-- Core JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>

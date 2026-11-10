@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Parish Bulletin | SS Peter and Paul Catholic Church, Ugbolu</title>
+  <meta name="description" content="Official weekly parish bulletins for SS Peter and Paul Catholic Church, Ugbolu (Catholic Diocese of Issele-Uku). Sunday lectionary readings, priest reflection, Mass intentions, and announcements.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+  <!-- Demo Banner -->
+  <aside class="demo-banner" role="complementary">
+    <div class="container demo-banner-content">
+      <span class="demo-tag">DEMO PROJECT</span>
+      <span>Sample Weekly Parish Bulletins for SS Peter and Paul Catholic Church, Ugbolu (Catholic Diocese of Issele-Uku). All bulletin entries, reflections, and announcements are demonstration content.</span>
+    </div>
+  </aside>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand">
+        <img src="assets/images/church-crest.svg" alt="Church Crest" class="brand-crest" width="52" height="52">
+        <div class="brand-text">
+          <span class="brand-title">SS Peter &amp; Paul</span>
+          <span class="brand-subtitle">Catholic Church, Ugbolu</span>
+          <span class="brand-location">Catholic Diocese of Issele-Uku</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="bulletin.html" class="nav-link active">Weekly Bulletin</a></li>
+          <li><a href="calendar.html" class="nav-link">Calendar</a></li>
+          <li><a href="masses-sacraments.html" class="nav-link">Mass &amp; Sacraments</a></li>
+          <li><a href="ministries.html" class="nav-link">Ministries</a></li>
+          <li><a href="announcements.html" class="nav-link">Announcements</a></li>
+          <li><a href="resources.html" class="nav-link">Resources</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <button id="printBulletinBtnHeader" class="btn btn-sm btn-gold" onclick="window.print()">
+          🖨️ Print Bulletin
+        </button>
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true">
+    <div class="drawer-backdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <img src="assets/images/church-crest.svg" alt="" width="36" height="36">
+          <div style="font-family:var(--font-serif); font-weight:700; color:var(--burgundy-900);">SS Peter &amp; Paul</div>
+        </div>
+        <button class="drawer-close" type="button">&times;</button>
+      </div>
+      <ul class="drawer-nav-list">
+        <li><a href="index.html" class="drawer-nav-link">Home <span>→</span></a></li>
+        <li><a href="about.html" class="drawer-nav-link">About Our Parish <span>→</span></a></li>
+        <li><a href="bulletin.html" class="drawer-nav-link active">Weekly Bulletin <span>→</span></a></li>
+        <li><a href="calendar.html" class="drawer-nav-link">Church Calendar <span>→</span></a></li>
+        <li><a href="masses-sacraments.html" class="drawer-nav-link">Mass &amp; Sacraments <span>→</span></a></li>
+        <li><a href="ministries.html" class="drawer-nav-link">Parish Ministries <span>→</span></a></li>
+        <li><a href="announcements.html" class="drawer-nav-link">Announcements <span>→</span></a></li>
+        <li><a href="resources.html" class="drawer-nav-link">Catholic Resources <span>→</span></a></li>
+        <li><a href="gallery.html" class="drawer-nav-link">Photo Gallery <span>→</span></a></li>
+        <li><a href="contact.html" class="drawer-nav-link">Contact &amp; Visit Us <span>→</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span aria-current="page">Weekly Bulletin</span>
+        </nav>
+        <h1 class="page-hero-title">Weekly Parish <span>Bulletin</span></h1>
+        <p class="page-hero-desc">
+          Official Digital Leaflet of SS Peter and Paul Catholic Church, Ugbolu • Catholic Diocese of Issele-Uku
+        </p>
+      </div>
+    </section>
+
+    <div class="container" style="padding-top: 1rem;">
+      <!-- Interactive Bulletin Control Bar -->
+      <section class="bulletin-toolbar" aria-label="Bulletin Selection and Tools">
+        <div class="bulletin-select-wrap">
+          <label for="bulletinSelect" style="font-weight:700; font-size:0.875rem; color:var(--burgundy-900);">
+            Select Bulletin Issue:
+          </label>
+          <select id="bulletinSelect" class="form-control" style="max-width:380px;">
+            <option value="">Loading issues...</option>
+          </select>
+        </div>
+
+        <div class="bulletin-actions">
+          <button id="printBulletinBtn" class="btn btn-gold" type="button" title="Print this bulletin or save as PDF">
+            🖨️ Print / Save as PDF
+          </button>
+          <button id="downloadBulletinBtn" class="btn btn-outline-burgundy" type="button" title="Download formatted bulletin text file">
+            📥 Download Text
+          </button>
+        </div>
+      </section>
+
+      <!-- Main Dynamic Bulletin Display Area -->
+      <div id="bulletinContainer">
+        <!-- Rendered dynamically by js/bulletin.js -->
+        <div style="text-align:center; padding: 4rem 1rem;">
+          <div style="font-size:2rem; margin-bottom:1rem; color:var(--gold-600);">⏳</div>
+          <p style="color:var(--text-muted); font-size:1.1rem;">Loading parish bulletin...</p>
+        </div>
+      </div>
+
+      <!-- Bulletin Archive and Search Section -->
+      <section style="margin-bottom: 5rem;" aria-label="Bulletin Archives">
+        <div class="card" style="padding: 2.25rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem; margin-bottom:1.75rem; border-bottom:2px solid var(--border-light); padding-bottom:1rem;">
+            <div>
+              <h2 style="font-size:1.4rem; color:var(--burgundy-900);">Past Bulletins &amp; Archive</h2>
+              <p style="font-size:0.875rem; color:var(--text-muted);">Browse previously published sample weekly bulletins.</p>
+            </div>
+            <div style="max-width:320px; width:100%;">
+              <input type="search" id="bulletinSearchInput" class="form-control" placeholder="Search archive by reading, topic..." aria-label="Search past bulletins">
+            </div>
+          </div>
+
+          <div id="bulletinArchiveList" style="display:flex; flex-direction:column; gap:1rem;">
+            <!-- Populated by js/bulletin.js -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-disclaimer">
+        ⚠️ <strong>DEMONSTRATION PORTAL:</strong> SS Peter and Paul Catholic Church, Ugbolu, under the Catholic Diocese of Issele-Uku, Delta State, Nigeria. All bulletins are realistic demonstration records.
+      </div>
+
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <img src="assets/images/church-crest.svg" alt="SS Peter and Paul Crest" width="56" height="56">
+            <div>
+              <div class="footer-brand-title">SS Peter &amp; Paul</div>
+              <div class="footer-brand-sub">Catholic Church, Ugbolu</div>
+            </div>
+          </div>
+          <p style="font-size:0.875rem; color:#CBD5E1;">
+            Catholic Diocese of Issele-Uku • Asaba Deanery, Delta State, Nigeria.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Parish Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="calendar.html">Church Calendar</a></li>
+            <li><a href="masses-sacraments.html">Mass Schedules</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Parish Ministries</h4>
+          <ul class="footer-links">
+            <li><a href="ministries.html#cmo">Catholic Men Organisation</a></li>
+            <li><a href="ministries.html#cwo">Catholic Women Organisation</a></li>
+            <li><a href="ministries.html#cyon">Catholic Youth Organisation</a></li>
+            <li><a href="ministries.html#choir">St. Cecilia Choir</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Parish Secretariat</h4>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>Ugbolu-Illah Road, Ugbolu, Delta State</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>💬</span>
+            <span><a href="contact.html" style="color:var(--gold-400);">Contact Parish Office</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 SS Peter and Paul Catholic Church, Ugbolu. Catholic Diocese of Issele-Uku.</div>
+        <div>Demonstration Parish Portal</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <script src="js/app.js"></script>
+  <script src="js/bulletin.js"></script>
+</body>
+</html>
